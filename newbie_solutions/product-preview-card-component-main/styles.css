@@ -11,6 +11,10 @@
     --montserrat-font: 'Montserrat', sans-serif;
 }
 
+* {
+    outline: 1px solid red;
+}
+
 body {
     display: flex;
     align-items: center;
@@ -139,6 +143,7 @@ body {
         width: 295px;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
+        padding: 24px;
     }
 
     .cart-button {
