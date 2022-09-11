@@ -11,8 +11,8 @@
 }
 
 * {
-    outline: 1px solid red;
-
+/*     outline: 1px solid red;
+ */
 }
 
 body {
@@ -23,12 +23,12 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    background-color: var(--color-light-gray);
 }
 
 .main-container {
-    height: 70vh;
+    height: 900px;
     width: 1440px;
-    background-color: var(--color-light-gray);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,16 +38,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
     background-color: var(--color-white);
     border-radius: 20px;
-    height: 60%;
-    width: 25%;
+    height: 600px;
+    width: 400px;
 }
 
 .qr-container img {
-    height: %
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
 /* <img src="./images/image-qr-code.png" alt="qr-code">
