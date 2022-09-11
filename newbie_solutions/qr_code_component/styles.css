@@ -10,11 +10,6 @@
     font-family: 'Outfit', sans-serif;
 }
 
-* {
-/*     outline: 1px solid red;
- */
-}
-
 body {
     height: 100vh;
     width: 100%;
@@ -77,17 +72,3 @@ body {
     font-size: 1.4rem;
     width: 90%;
 }
-
-@media only screen and (max-width: 800px) {
-
-}
-
-/* <img src="./images/image-qr-code.png" alt="qr-code">
-<div class="text-container">
-    <p class="text-title">Improve your front-end skills by building projects</p>
-    <p class="text-paragraph
- */
-
-/* MOBILE
- 
-width: 375px
