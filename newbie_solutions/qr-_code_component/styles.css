@@ -11,8 +11,8 @@
 }
 
 * {
-/*     outline: 1px solid red;
- */
+    outline: 1px solid red;
+
 }
 
 body {
@@ -53,6 +53,19 @@ body {
     border-radius: 12px;
 }
 
+.text-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-title, .text-paragraph {
+    text-align: center;
+    width: 100%;
+}
+
 /* <img src="./images/image-qr-code.png" alt="qr-code">
 <div class="text-container">
     <p class="text-title">Improve your front-end skills by building projects</p>
@@ -60,5 +73,5 @@ body {
  */
 
 /* MOBILE
- */
+ 
 width: 375px
