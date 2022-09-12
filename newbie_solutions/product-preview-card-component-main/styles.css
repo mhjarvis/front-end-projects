@@ -11,10 +11,6 @@
     --montserrat-font: 'Montserrat', sans-serif;
 }
 
-* {
-    outline: 1px solid red;
-}
-
 body {
     display: flex;
     align-items: center;
@@ -51,27 +47,27 @@ body {
     background-color: var(--white);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 32px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .category {
-    font-size: 12px;
+    font-size: .8rem;
     font-family: var(--montserrat-font);
     color: var(--dark-grayish-blue);
     letter-spacing: 5px;
 }
 
 .brand {
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--fraunces-font);
     color: var(--very-dark-blue);
 }
 
 .description {
-    font-size: 14px;
+    font-size: .9rem;
     font-family: var(--montserrat-font);
     color: var(--dark-grayish-blue);
     line-height: 23px;;
@@ -83,7 +79,7 @@ body {
 }
 
 .saleprice {
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--fraunces-font);
     color: var(--dark-cyan);
     font-weight: 700;
@@ -91,7 +87,7 @@ body {
 }
 
 .oldprice {
-    font-size: 13px;
+    font-size: .8rem;
     font-family: var(--montserrat-font);
     color: var(--dark-grayish-blue);
     text-decoration: line-through;
@@ -124,6 +120,7 @@ body {
     .main {
         min-width: 375px;
     }
+    
     .container {
         flex-direction: column;
         width: 343px;
