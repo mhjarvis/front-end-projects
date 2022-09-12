@@ -55,7 +55,31 @@ body {
     color: var(--dark-blue)
 }
 
+.description {
+    text-align: center;
+    line-height: 26px;
+    color:hsl(224, 23%, 55%);
+}
 
+.plan-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 6rem;
+    width: 100%;;
+    background-color: var(--very-pale-blue);
+}
 
+.plan-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.change {
+    margin-left: 60px;
+}
 
 /* @media (375px) {} */
