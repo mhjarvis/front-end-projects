@@ -1,11 +1,19 @@
 @import url(./reset.css);
 
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
 * {
     outline: 1px solid red;
 }
 
 body {
-    background-color: hsl(225, 100%, 94%);
+    background-color: var(--pale-blue);
     background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     height: 100vh;
@@ -35,4 +43,12 @@ body {
     justify-content: space-between;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: white;
 }
+
+
+
+
+
+
+/* @media (375px) {} */
