@@ -105,8 +105,8 @@ body {
     border-style: none;
 }
 
-.cart-text, .shopping-cart {
-    margin: 0 5px;
+.shopping-cart {
+    margin-right: 10px;
 }
 
 .cart-button:hover {
