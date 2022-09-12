@@ -94,18 +94,15 @@ body {
 }
 
 .cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 48px;
     width: 236px;
     color: var(--white);
     background-color: var(--dark-cyan);
     border-radius: 10px;
     border-style: none;
-}
-
-.button-contents {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .cart-text, .shopping-cart {
