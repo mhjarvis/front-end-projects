@@ -1,7 +1,20 @@
 @import url(./reset.css);
 
+* {
+    outline: 1px solid red;
+}
+
 body {
     background-color: hsl(225, 100%, 94%);
     background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    min-height: 697px;
+    width: 450px;
 }
