@@ -17,20 +17,10 @@ body {
     justify-content: center;
     overflow: hidden; 
     height: 100vh;
+    background-color: var(--cream);
 } 
 
 .main {
-    display: flex;
-    flex-direction: column;;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    height: 800px;
-    min-width: 1440px;
-    background-color: var(--cream);
-}
-
-.container {
     display: flex;
     width: 600px;
     height: 450px;
@@ -113,12 +103,10 @@ body {
     background-color: rgb(36, 75, 61);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
     .main {
         min-width: 375px;
-    }
-    
-    .container {
+        align-items: center;
         flex-direction: column;
         width: 343px;
         height: 611px;
