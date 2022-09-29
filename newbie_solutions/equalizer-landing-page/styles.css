@@ -4,6 +4,13 @@
 /*****************************************
               TOP ELEMENTS
 *****************************************/
+:root {
+    --aqua: #66e2dc;
+    --salmon: #fa7453;
+    --orange: #ffb964;
+    --grayish: #fcfaf9;
+    --blackish: #191826;
+}
 
 * {
     outline: 1px solid red;
