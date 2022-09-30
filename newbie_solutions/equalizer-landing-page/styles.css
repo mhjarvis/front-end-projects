@@ -22,6 +22,9 @@ body {
     background-color: #f2f2f2;
     height: 100vh; 
     width: 100%;
+    display: grid;
+    grid-template-rows: 3.5fr 4.5fr 1fr;
+    grid-template-columns: auto;
 }
 
 strong {
@@ -55,7 +58,9 @@ h2 {
                  HEADER
 *****************************************/
 
-
+header {
+    display: grid;
+}
 
 
 
