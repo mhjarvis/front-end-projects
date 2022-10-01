@@ -12,6 +12,8 @@
     --grayish: #fcfaf9;
     --blackish: #191826;
     font-size: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 * {
@@ -19,9 +21,10 @@
  */}
 
 body {
+    position: relative;
     background-image: url(./assets/bg-main-desktop.png);
-    background-color: #f2f2f2;
-    width: 100%;
+    background-color: var(--grayish);
+    max-width: 1440px;
     display: grid;
     grid-template-rows: 3.5fr 4.5emfr 1fr;
     grid-template-columns: auto;
@@ -68,8 +71,9 @@ header {
 
 #logo-shapes {
     position: absolute;
-    right: 0;
-    top: 0;
+    left: 1128px;
+/*     right: -100px;
+ */    top: -4rem;
 }
 
 .equalizer {
@@ -102,7 +106,24 @@ h1 {
               MAIN SECTION
 *****************************************/
 
+section {
+    margin-top: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.main-container {
+    background-color: var(--blackish);
+    height: 600px;
+    border-radius: 10px;
+}
+
+.phone-image {
+    margin-left: 10rem;
+    max-height: 612px;
+}
 
 
 
