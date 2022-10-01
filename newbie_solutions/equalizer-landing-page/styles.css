@@ -86,4 +86,14 @@ header {
 h1 {
     margin-left: 10%;
     margin-right: 20%;
+/*     height: 11rem;
+ */    max-width: 1010px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#h1-subtext {
+    margin-left: 10%;
+    max-width: 825px;
 }
