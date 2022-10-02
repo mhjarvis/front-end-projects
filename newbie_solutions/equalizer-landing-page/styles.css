@@ -121,10 +121,17 @@ section {
 }
 
 .phone-image {
-    margin-left: 10rem;
+    position: absolute;
+    margin: -20rem 0 0 10rem;
     max-height: 612px;
+    z-index: 2;
 }
 
+.background-square {
+    position: absolute;
+    z-index: 1;
+    left: 300px;
+}
 
 
 /*****************************************
