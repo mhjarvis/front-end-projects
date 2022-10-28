@@ -1,5 +1,9 @@
 @import url(./reset.css);
 
+* {
+/*     outline: 1px solid red;
+ */}
+
 :root {
     font-size: 10px;
 
@@ -35,16 +39,46 @@ a {
     color: white;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
     /********************************
     ********** FORM ELEMENT *********
     ********************************/
 
 form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
     background-color: var(--dark-blue);
     height: 41.6rem;
     width: 41.2rem;
     border-radius: 20px;
+}
+
+form > * {
+    margin: 0 3.5rem;
+}
+
+.image-container {
+
+}
+
+.star-img {
+    background-color: hsl(213, 19%, 23%);
+    filter: drop-shadow(0 3px 2px black);
+    border-radius: 50%;
+    width: 4.8rem;
+    height: 4.8rem;
+}   
+
+.submit-button {
+
 }
 
 
