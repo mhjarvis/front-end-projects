@@ -1,10 +1,6 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Prompt:wght@100;200;300;400;500;600;700&display=swap');
 
-* {
-    outline: 1px solid red;
-}
-
 :root {
     font-size: 10px;
     font-family: 'Overpass', sans-serif;
@@ -138,10 +134,48 @@ form > * {
     *********** THANK YOU ***********
     ********************************/
 
+.thankyou-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.thankyou-container > * {
+    margin: 0 3.5rem;
+}
 
+/* .thankyou-img {
+} */
 
+.score-select {
+    height: 3rem;
+    background-color: var(--dark-blue);
+    color: var(--orange);
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    padding: 0 2rem;
+    padding-top: 2px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.thankyou-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 3.5rem;;
+}
+
+.thankyou-paragraph {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: var(--light-gray);
+    margin-top: -2rem;
+}
 
 
 
