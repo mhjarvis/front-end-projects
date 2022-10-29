@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Prompt:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
-/*     outline: 1px solid red;
- */}
+    outline: 1px solid red;
+}
 
 :root {
     font-size: 10px;
@@ -47,12 +47,11 @@ a {
     justify-content: center;
 }
 
-
     /********************************
     ********** FORM ELEMENT *********
     ********************************/
 
-form {
+.main-container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -69,10 +68,6 @@ form {
 form > * {
     margin: 0 3.5rem;
     width: calc(100% - 7rem);
-}
-
-.image-container {
-
 }
 
 .form-title {
@@ -124,8 +119,8 @@ form > * {
     height: 4.5rem;
     font-size: 1.5rem;
     font-weight: 700;
-    background-color: var(--white);
-    color: var(--orange);
+    background-color: var(--orange);
+    color: var(--white);
     letter-spacing: 0.2rem;
     font-family: 'Overpass', sans-serif;
     border: none;
@@ -133,10 +128,24 @@ form > * {
     cursor:pointer;
 }
 
+.submit-button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
 
     /********************************
     *********** THANK YOU ***********
     ********************************/
+
+
+
+
+
+
+
+
+
 
 
     /********************************
