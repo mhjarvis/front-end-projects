@@ -178,9 +178,19 @@ form > * {
     ********************************/
 
 .attribution {
+    display: flex;
     color: white;
     position: absolute;
+    font-size: 1.8rem;
     bottom: 0;
+}
+
+.attribution > h6 {
+    margin: 1rem 0.5rem;
+}
+
+.attribution a:hover {
+    color: var(--orange);
 }
 
     /********************************
