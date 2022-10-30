@@ -177,19 +177,32 @@ form > * {
     margin-top: -2rem;
 }
 
-
-
-
-
-
     /********************************
     ********** ATTRIBUTION **********
     ********************************/
 
-    .attribution {
-        color: white;
-        position: absolute;
-        bottom: 0;
+.attribution {
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+    /********************************
+    ********* MOBILE LAYOUT *********
+    ********************************/
+
+@media screen and (max-width: 375px) {
+    .main-container {
+        height: 36rem;
+        width: 32.7rem;
     }
 
-    
+    form > * {
+        margin: 0 1.5rem;
+        width: calc(100% - 3rem);
+    }
+
+    .thankyou-container > * {
+        margin: 0 1.5rem;
+    }
+}
