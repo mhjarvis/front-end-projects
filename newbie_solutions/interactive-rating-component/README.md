@@ -2,8 +2,6 @@
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
-The final project can be viewed at [![Netlify Status](https://api.netlify.com/api/v1/badges/c20dd5e6-e934-42bd-9428-860b8b0f4101/deploy-status)](https://app.netlify.com/sites/mhjarvis-interactive-rating-component/deploys)
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -24,8 +22,8 @@ An interactive rating component using HTML, CSS, and JavaScript.
 
 ### Links
 
-- Solution URL: [](https://github.com/mhjarvis/frontend-mentor-projects/tree/main/newbie_solutions/interactive-rating-component)
-- Live Site URL: [](https://app.netlify.com/sites/mhjarvis-interactive-rating-component/deploys)
+- Solution URL: [https://github.com/mhjarvis/frontend-mentor-projects/tree/main/newbie_solutions/interactive-rating-component](https://github.com/mhjarvis/frontend-mentor-projects/tree/main/newbie_solutions/interactive-rating-component)
+- Live Site URL: [https://app.netlify.com/sites/mhjarvis-interactive-rating-component/deploys](https://app.netlify.com/sites/mhjarvis-interactive-rating-component/deploys)
 
 ### Built with
 
