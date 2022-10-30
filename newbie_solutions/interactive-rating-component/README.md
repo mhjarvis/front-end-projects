@@ -23,7 +23,7 @@ An interactive rating component using HTML, CSS, and JavaScript.
 ### Links
 
 - Solution URL: [https://github.com/mhjarvis/frontend-mentor-projects/tree/main/newbie_solutions/interactive-rating-component](https://github.com/mhjarvis/frontend-mentor-projects/tree/main/newbie_solutions/interactive-rating-component)
-- Live Site URL: [https://app.netlify.com/sites/mhjarvis-interactive-rating-component/deploys](https://app.netlify.com/sites/mhjarvis-interactive-rating-component/deploys)
+- Live Site URL: [https://mhjarvis-interactive-rating-component.netlify.app/](https://mhjarvis-interactive-rating-component.netlify.app/)
 
 ### Built with
 
