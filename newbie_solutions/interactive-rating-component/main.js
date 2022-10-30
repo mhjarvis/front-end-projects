@@ -56,6 +56,7 @@ function toggleForm() {
     thankyouContainer.classList = 'main-container thankyou-container';
 }
 
+// Update the review score element with what was chosen
 function scoreOutput(scoreDisplayElement) {
     scoreDisplayElement.innerText = `You selected ${getScore()} out of 5`;
 }
