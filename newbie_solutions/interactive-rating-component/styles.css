@@ -129,7 +129,6 @@ form > * {
     color: var(--orange);
 }
 
-
     /********************************
     *********** THANK YOU ***********
     ********************************/
@@ -143,9 +142,6 @@ form > * {
 .thankyou-container > * {
     margin: 0 3.5rem;
 }
-
-/* .thankyou-img {
-} */
 
 .score-select {
     height: 3rem;
