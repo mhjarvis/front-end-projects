@@ -1,0 +1,32 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+    /********************************
+    *********** VARIABLES ***********
+    ********************************/
+
+    * {
+        outline: 1px solid red;
+    }
+
+    :root {
+        font-size: 10px;
+        font-family: 'Barlow', sans-serif;
+        
+        /* Color Variables */
+        --orange: #f16718;       
+        --lightOrange: #ff9b62;
+        --blue: #162542;
+        --lightBlue: #7b8bad; 
+        --blueGray: #e8eff2;
+        --white: #ffffff;
+    }
+
+    /********************************
+    ************ HEADER *************
+    ********************************/
+
+    .title {
+        font-size: 5.6rem;
+        font-weight: 900;
+    }
