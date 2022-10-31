@@ -1,32 +1,64 @@
 @import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
 
-    /********************************
-    *********** VARIABLES ***********
-    ********************************/
+/********************************
+*********** VARIABLES ***********
+********************************/
 
-    * {
-        outline: 1px solid red;
-    }
+* {
+    outline: 1px solid red;
+}
 
-    :root {
-        font-size: 10px;
-        font-family: 'Barlow', sans-serif;
-        
-        /* Color Variables */
-        --orange: #f16718;       
-        --lightOrange: #ff9b62;
-        --blue: #162542;
-        --lightBlue: #7b8bad; 
-        --blueGray: #e8eff2;
-        --white: #ffffff;
-    }
+:root {
+    font-size: 10px;
+    font-family: 'Barlow', sans-serif;
+       
+    /* Color Variables */
+    --orange: #f16718;       
+    --lightOrange: #ff9b62;
+    --blue: #162542;
+    --lightBlue: #7b8bad; 
+    --blueGray: #e8eff2;
+    --white: #ffffff;
+}
 
-    /********************************
-    ************ HEADER *************
-    ********************************/
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .title {
-        font-size: 5.6rem;
-        font-weight: 900;
-    }
+body {
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
+    justify-content: center;
+    max-width: 1110px;
+}
+
+/********************************
+************ HEADER *************
+********************************/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tm {
+    height: 4rem;
+    width: 4rem;
+}
+
+/********************************
+************* MAIN **************
+********************************/
+
+.title {
+    font-size: 5.6rem;
+    font-weight: 900;
+}
+
+/********************************
+************ FOOTER *************
+********************************/
