@@ -1,7 +1,11 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
-
+/* CSS TABLE OF CONTENTS 
+    1. GENERAL
+      A. COLOR VARIABLES
+    2. 
+*/
 
 /*************************************/ 
 /************** GENERAL **************/
@@ -24,13 +28,6 @@
 
 }
   
-
-
-
-
-
-
-
-
-- Family: [Karla](https://fonts.google.com/specimen/Karla)
-- Weights: 400, 700
+body {
+  background-color: var(--gray);
+}
