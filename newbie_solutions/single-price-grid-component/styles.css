@@ -1,0 +1,36 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+
+/*************************************/ 
+/************** GENERAL **************/
+/*************************************/ 
+
+/** Mobile - 375px **/
+/** Desktop - 1440px **/
+
+:root {
+
+  font-size: 10px;
+  font-family: 'Karla', sans-serif;
+
+  /********** COLOR VARIABLES **********/
+
+  --cyan: hsl(179, 62%, 43%);
+  --yellow: hsl(71, 73%, 54%);
+  --gray: hsl(204, 43%, 93%);
+  --blue: hsl(218, 22%, 67%);
+
+}
+  
+
+
+
+
+
+
+
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
