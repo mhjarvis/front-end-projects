@@ -4,7 +4,8 @@
 /* CSS TABLE OF CONTENTS 
     1. GENERAL
       A. COLOR VARIABLES
-    2. 
+    2. MAIN
+    3. FOOTER
 */
 
 /*************************************/ 
@@ -27,7 +28,35 @@
   --blue: hsl(218, 22%, 67%);
 
 }
+
+* {
+  outline: 1px solid red;
+}
   
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: var(--gray);
+  height: 100vh;
+  width: 100%;
+}
+
+main {
+  width: 635px;
+  height: 475px;
+}
+
+/*************************************/ 
+/*************** MAIN ****************/
+/*************************************/ 
+
+/*************************************/ 
+/************** FOOTER ***************/
+/*************************************/ 
+
+footer {
+  position: absolute; ad
+  bottom: 2rem;
 }
