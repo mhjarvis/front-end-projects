@@ -32,7 +32,16 @@ body {
     display: grid;
     grid-template-rows: 1fr 10fr 1fr;
     justify-content: center;
+    gap: 20px;
     max-width: 1110px;
+}
+
+.desktop-version {
+    height: 480px;
+}
+
+.tablet-version {
+    height: 320px;
 }
 
 /********************************
@@ -43,6 +52,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 16.5rem;
 }
 
 .tm {
@@ -54,10 +64,44 @@ header {
 ************* MAIN **************
 ********************************/
 
-.title {
-    font-size: 5.6rem;
-    font-weight: 900;
-}
+    /******* TITLE CONTAINER ********/
+
+    .top-section {
+        display: flex;
+        flex-direction: row;
+    }
+    .keyboard-desktop-image {
+        width: 500px;
+    }
+
+    .title {
+        font-size: 5.6rem;
+        font-weight: 900;
+    }
+
+    /********** MIDDLE **********/
+
+    .middle-section {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .middle-container {
+        margin: 0 16.5rem;
+        
+    }
+
+/*     .top-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+    } */
+
+    .phone-and-keyboard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 /********************************
 ************ FOOTER *************

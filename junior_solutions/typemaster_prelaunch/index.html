@@ -15,7 +15,7 @@
     </header>
 
     <main>
-        <section>
+        <section class="top-section">
             <div class="title-container">
                 <h1 class="title">TYPEMASTER KEYBOARD</h1>
                 <h3 class="sub-title">  Improve your productivity and gaming without breaking the bank. Upgrade to a high quality mechanical typing experience.</h3>
@@ -24,14 +24,24 @@
                     <h3 class="release-date"></h3>
                 </div>
             </div>
+            <picture class="title-picture">
+                <source media="(min-width: 768px)" srcset="./assets/desktop/image-keyboard.jpg" class="keyboard-desktop-image">
+                <img src="./assets/desktop/image-keyboard.jpg" alt="keyboard" class="keyboard-desktop-image">
+            </picture>
         </section>
-        <section>
+        <section class="middle-section">
             <div class="middle-container">
-                <picture>
-
+                <picture class="phone-and-keyboard">
+                    <source media="(min-width:768px)" srcset="./assets/desktop/image-phone-and-keyboard.jpg" class="desktop-version">
+                    <source media="(min-width: 375px)" srcset="./assets/tablet/image-phone-and-keyboard.jpg" class="tablet-version">
+                    <source media="(min-width: 0px)" srcset="./assets/mobile/image-phone-and-keyboard.jpg">
+                    <img src="./assets/desktop/image-phone-and-keyboard.jpg" alt="keyboard" class="desktop-version">
                 </picture>
                 <picture>
-
+                    <source media="(min-width: 768px)" srcset="./assets/desktop/image-glass-and-keyboard.jpg">
+                    <source media="(min-width: 375px)" srcset="./assets/tablet/image-glass-and-keyboard.jpg">
+                    <source media="(min-width: 0px)" srcset="./assets/mobile/image-glass-and-keyboard.jpg">
+                    <img src="./assets/desktop/image-glass-and-keyboard.jpg" alt="keyboard">
                 </picture>
                 <div class="middle-info-container">
                     <h2>MECHANICAL WIRELESS KEYBOARD</h2>
