@@ -43,20 +43,35 @@ body {
   width: 100%;
 }
 
-main {
-  width: 635px;
-  height: 475px;
-}
+
 
 /*************************************/ 
 /*************** MAIN ****************/
 /*************************************/ 
+
+main {
+  width: 635px;
+  height: 475px;
+  display: grid;
+  grid-template-rows: 216px 259px;
+}
+
+.top {
+
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
 
 /*************************************/ 
 /************** FOOTER ***************/
 /*************************************/ 
 
 footer {
-  position: absolute; ad
+  position: absolute; 
   bottom: 2rem;
 }
