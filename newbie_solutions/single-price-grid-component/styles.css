@@ -52,6 +52,7 @@ main {
   height: 475px;
   display: grid;
   grid-template-rows: 216px 259px;
+  filter: drop-shadow(0 5px 3px gray);
 }
 
   /********** TOP CONTAINER **********/
@@ -91,13 +92,29 @@ main {
 
   /******** BOTTOM CONTAINER ********/
 
-.bottom {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
+  .bottom {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 
+  /******** BOTTOM-LEFT CONTAINER ********/
+
+  .bottom-left {
+    background-color: var(--cyan);
+    border-bottom-left-radius: 8px;
+  }
+
+  
+
+
+
+  /******** BOTTOM-RIGH CONTAINER ********/
+
+  .bottom-right {
+    border-bottom-right-radius: 8px;
+    background-color: var(--cyan);
+    opacity: 85%;
+  } 
 
 /*************************************/ 
 /************** FOOTER ***************/
