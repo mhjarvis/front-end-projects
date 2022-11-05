@@ -43,6 +43,14 @@ body {
   width: 100%;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
 /*************************************/ 
 /*************** MAIN ****************/
 /*************************************/ 
@@ -102,9 +110,52 @@ main {
   .bottom-left {
     background-color: var(--cyan);
     border-bottom-left-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 4rem;
   }
 
-  
+  .subscription {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--gray);
+    line-height: 2.1rem;
+  }
+
+  .price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .amount {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--gray);
+    margin-right: 1rem;
+  }
+
+  .per-month {
+    font-size: 1.6rem;
+    color: hsl(204, 43%, 84%);
+    line-height: 2.6rem;
+  }
+
+  .price-description {
+    font-size: 1.6rem;
+    color: var(--gray);
+  }
+
+  .sign-up {
+    height: 4.8rem;
+    background-color: var(--yellow);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.6rm;
+    font-weight: 700;
+  }
 
 
 
@@ -112,8 +163,9 @@ main {
 
   .bottom-right {
     border-bottom-right-radius: 8px;
-    background-color: var(--cyan);
-    opacity: 85%;
+    background-color: hsl(179, 62%, 53%);
+    ;
+    
   } 
 
 /*************************************/ 
@@ -123,4 +175,5 @@ main {
 footer {
   position: absolute; 
   bottom: 2rem;
+  
 }
