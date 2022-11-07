@@ -1,9 +1,19 @@
 @import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
 
-/********************************
-*********** VARIABLES ***********
-********************************/
+/* CSS TABLE OF CONTENTS 
+    1. GENERAL
+      A. COLOR VARIABLES
+    2. MAIN
+      A. TOP CONTAINER
+      B. BOTTOM CONTAINER
+    3. FOOTER
+    4. MOBILE
+*/
+
+/*************************************/ 
+/************** GENERAL **************/
+/*************************************/ 
 
 * {
     outline: 1px solid red;
@@ -22,88 +32,20 @@
     --white: #ffffff;
 }
 
-html {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-body {
-    display: grid;
-    grid-template-rows: 1fr 10fr 1fr;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1110px;
-}
 
-.desktop-version {
-    height: 480px;
-}
+/*************************************/ 
+/************** HEADER ***************/
+/*************************************/ 
 
-.tablet-version {
-    height: 320px;
-}
 
-/********************************
-************ HEADER *************
-********************************/
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 16.5rem;
-    max-height: 6rem;
-}
+/*************************************/ 
+/*************** MAIN ****************/
+/*************************************/ 
 
-.tm {
-    height: 4rem;
-    width: 4rem;
-}
 
-/********************************
-************* MAIN **************
-********************************/
 
-    /******* TITLE CONTAINER ********/
-
-    .top-section {
-        display: flex;
-        flex-direction: row;
-    }
-    .keyboard-desktop-image {
-        width: 500px;
-    }
-
-    .title {
-        font-size: 5.6rem;
-        font-weight: 900;
-    }
-
-    /********** MIDDLE **********/
-
-    .middle-section {
-        display: flex;
-        flex-direction: row;
-        
-    }
-
-    .middle-container {
-        margin: 0 16.5rem;
-        
-    }
-
-/*     .top-container {
-        display: grid;
-        grid-template-columns: 1fr 2fr 2fr;
-    } */
-
-    .phone-and-keyboard {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-/********************************
-************ FOOTER *************
-********************************/
+/*************************************/ 
+/************** FOOTER ***************/
+/*************************************/ 
