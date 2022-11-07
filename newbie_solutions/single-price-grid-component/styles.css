@@ -5,6 +5,8 @@
     1. GENERAL
       A. COLOR VARIABLES
     2. MAIN
+      A. TOP CONTAINER
+      B. BOTTOM CONTAINER
     3. FOOTER
 */
 
@@ -16,7 +18,6 @@
 /** Desktop - 1440px **/
 
 :root {
-
   font-size: 10px;
   font-family: 'Karla', sans-serif;
 
@@ -28,10 +29,6 @@
   --blue: hsl(218, 22%, 67%);
 
 }
-
-* {
-/*   outline: 1px solid red;
- */}
   
 body {
   display: flex;
@@ -145,6 +142,7 @@ main {
   .price-description {
     font-size: 1.6rem;
     color: var(--gray);
+    margin-bottom: 2rem;
   }
 
   .sign-up {
@@ -155,18 +153,32 @@ main {
     border-radius: 8px;
     font-size: 1.6rm;
     font-weight: 700;
+    line-height: 1.9rem;
+    padding-top: 3px;
   }
-
-
 
   /******** BOTTOM-RIGH CONTAINER ********/
 
   .bottom-right {
     border-bottom-right-radius: 8px;
-    background-color: hsl(179, 62%, 53%);
-    ;
-    
+    background-color: hsl(179, 62%, 53%);    
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   } 
+
+  .why-us {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 700;
+  }
+
+  .reasons {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: hsl(204, 43%, 94%);
+  }
 
 /*************************************/ 
 /************** FOOTER ***************/
@@ -175,5 +187,4 @@ main {
 footer {
   position: absolute; 
   bottom: 2rem;
-  
 }
