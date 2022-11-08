@@ -39,8 +39,10 @@ body {
 }
 
 .container {
+  display: grid;
+  grid-template-rows: 58px repeat(3, 480px) 26px;
+  gap: 83px;
   width: 1440px;
-  height: 100vh;
   padding: 55px 165px;
 }
 
@@ -48,9 +50,11 @@ body {
 /************** HEADER ***************/
 /*************************************/ 
 
+/* #region HEADER */
+
 header {
   margin: auto;
-  max-width: 1110px;
+  width: 100%;
   height: 58px;
   display: flex;
   align-items: center;
@@ -71,12 +75,45 @@ header {
 
 }
 
+/* #endregion */
+
 /*************************************/ 
 /*************** MAIN ****************/
 /*************************************/ 
 
+/* #region MAIN */
 
+/* #region TOP */
+.top {
+  height: 480px;
+  width: 100%;
+  background-color: blue;
+}
+/* #endregion */
+
+/* #region MIDDLE */
+.middle {
+  background-color: green;
+}
+/* #endregion */
+
+/* #region BOTTOM */
+.bottom {
+  background-color: yellow;
+
+}
+/* #endregion */
+
+/* #endregion */
 
 /*************************************/ 
 /************** FOOTER ***************/
 /*************************************/ 
+
+/* #region FOOTER */
+
+footer {
+  background-color: gray;
+}
+
+/* #endregion */
