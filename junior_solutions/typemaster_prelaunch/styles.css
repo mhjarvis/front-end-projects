@@ -11,11 +11,11 @@
     4. MOBILE
 */
 
+/* #region GENERAL */
+
 /*************************************/ 
 /************** GENERAL **************/
 /*************************************/ 
-
-/* #region GENERAL */
 
 * {
 /*     outline: 1px solid red;
@@ -50,11 +50,11 @@ body {
 
 /* #endregion */
 
+/* #region HEADER */
+
 /*************************************/ 
 /************** HEADER ***************/
 /*************************************/ 
-
-/* #region HEADER */
 
 header {
   margin: auto;
@@ -75,24 +75,81 @@ header {
   height: 100%;
   background-color: #E8EFF2;
   border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
   border-radius: 8px;
-
+  text-transform: uppercase;
 }
 
 /* #endregion */
+
+/* #region MAIN */
 
 /*************************************/ 
 /*************** MAIN ****************/
 /*************************************/ 
 
-/* #region MAIN */
-
 /* #region TOP */
 .top {
   height: 480px;
   width: 100%;
-  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 445px;
+  height: 312px;
+}
+
+.title {
+  font-size: 5.6rem;
+  font-weight: 900;
+  color: var(--blue);
+  text-transform: uppercase;
+}
+
+.sub-title {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: var(--lightBlue);
+}
+
+.top-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.top-button {
+  width: 175px;
+  height: 58px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--orange);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.release-date {
+  margin-left: 40px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--lightBlue);
+}
+
+.keyboard-image img {
+  height: 480px;
+  max-width: 540px;
+  object-fit: contain;
+}
+
 /* #endregion */
 
 /* #region MIDDLE */
@@ -110,11 +167,11 @@ header {
 
 /* #endregion */
 
+/* #region FOOTER */
+
 /*************************************/ 
 /************** FOOTER ***************/
 /*************************************/ 
-
-/* #region FOOTER */
 
 footer {
   background-color: gray;
