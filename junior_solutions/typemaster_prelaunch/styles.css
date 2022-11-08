@@ -135,6 +135,7 @@ header {
   color: var(--white);
   font-weight: 700;
   font-size: 1.6rem;
+  text-transform: uppercase;
 }
 
 .release-date {
@@ -148,14 +149,62 @@ header {
   height: 480px;
   max-width: 540px;
   object-fit: contain;
+  border-radius: 20px;
 }
 
 /* #endregion */
 
 /* #region MIDDLE */
+
 .middle {
-  background-color: green;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -53px;
 }
+
+.keyboard-phone-image img {
+  height: 480px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.keyboard-glass-image img {
+  height: 480px;
+  border-radius: 20px;
+}
+
+.middle-picture-container {
+
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 265px;
+  max-width: 255px;
+  
+}
+
+
+
+.middle-title {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: var(--blue);
+  text-transform: uppercase;
+}
+
+.middle-sub-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--lightBlue);
+}
+
 /* #endregion */
 
 /* #region BOTTOM */
