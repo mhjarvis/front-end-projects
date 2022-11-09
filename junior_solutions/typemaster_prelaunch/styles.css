@@ -202,10 +202,19 @@ header {
 
 /* #region BOTTOM */
 .bottom {
-  background-color: yellow;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: -106px;
+}
+
+.bottom-divs {
+  outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 323px;
+  width: 255px;
 }
 
 .org-box-container {
@@ -220,6 +229,24 @@ header {
 
 .org-box-w {
   width: 32px;
+}
+
+.bottom-1, .bottom-2, .bottom-3 {
+  margin-right: 30px;
+}
+
+.bottom-title {
+  font-size: 2.4em;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+
+.bottom-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--lightBlue);
+  line-height: 26px;
 }
 
 
