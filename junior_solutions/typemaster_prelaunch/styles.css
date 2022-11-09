@@ -38,6 +38,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .container {
@@ -81,6 +82,11 @@ header {
   text-transform: uppercase;
 }
 
+.header-button:hover {
+  background-color: var(--blue);
+  color: var(--white)
+}
+
 /* #endregion */
 
 /* #region MAIN */
@@ -91,6 +97,7 @@ header {
 
 /* #region TOP */
 .top {
+  position: relative;
   height: 480px;
   width: 100%;
   display: flex;
@@ -138,6 +145,10 @@ header {
   text-transform: uppercase;
 }
 
+.top-button:hover {
+  background-color: var(--lightOrange);
+}
+
 .release-date {
   margin-left: 40px;
   font-size: 1.6rem;
@@ -152,6 +163,17 @@ header {
   border-radius: 20px;
 }
 
+.blue-block-top {
+  position: absolute;
+  top: 0;
+  right: -165px;
+  background-color: var(--blueGray);
+  width: 135px;
+  height: 255px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
 /* #endregion */
 
 /* #region MIDDLE */
@@ -162,6 +184,7 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-top: -53px;
+  position: relative;
 }
 
 .keyboard-phone-image img {
@@ -198,6 +221,17 @@ header {
   color: var(--lightBlue);
 }
 
+.blue-block-mid {
+  position: absolute;
+  bottom: 0;
+  left: -165px;
+  background-color: var(--blueGray);
+  width: 135px;
+  height: 255px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 /* #endregion */
 
 /* #region BOTTOM */
@@ -209,7 +243,6 @@ header {
 }
 
 .bottom-divs {
-  outline: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -249,8 +282,6 @@ header {
   line-height: 26px;
 }
 
-
-
 /* #endregion */
 
 /* #endregion */
@@ -262,7 +293,19 @@ header {
 /*************************************/ 
 
 footer {
-  background-color: gray;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 26px;
+  color: var(--lightBlue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -106px;
+}
+
+.all-rights-reserved {
+  font-weight: 500;
+  margin-left: 5px;
 }
 
 /* #endregion */
