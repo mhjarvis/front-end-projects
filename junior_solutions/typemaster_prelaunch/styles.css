@@ -59,7 +59,6 @@ body {
 
 .header {
   min-height: 58px;
-  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,11 +89,17 @@ body {
   .container {
     padding: 30px;
   }
+
 }
 
 @media screen and (max-width: 375px) {
   .container {
     padding: 23px;
+  }
+
+  .header-button {
+    height: 48px;
+    width: 150px;
   }
 }
 
