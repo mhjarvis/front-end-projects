@@ -175,10 +175,6 @@ header {
   border-radius: 20px;
 }
 
-.middle-picture-container {
-
-}
-
 .middle-container {
   display: flex;
   flex-direction: column;
@@ -186,10 +182,7 @@ header {
   justify-content: space-between;
   height: 265px;
   max-width: 255px;
-  
 }
-
-
 
 .middle-title {
   font-size: 3.2rem;
@@ -210,8 +203,27 @@ header {
 /* #region BOTTOM */
 .bottom {
   background-color: yellow;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.org-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 65px;
+  background-color: var(--orange);
+  border-radius: 8px;
+}
+
+.org-box-w {
+  width: 32px;
+}
+
+
+
 /* #endregion */
 
 /* #endregion */
