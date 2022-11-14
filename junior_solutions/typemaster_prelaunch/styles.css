@@ -45,6 +45,7 @@ body {
   grid-template-rows: 5.8rem 48rem 48rem 48rem 2.6rem;
   width: 111rem;
   max-width: 111rem;
+  margin: 5.5rem 0 3.9rem 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -52,6 +53,7 @@ body {
     grid-template-rows: 5.8rem 42.5rem 50rem 65rem 2.6rem;
     width: 68.9rem;
     max-width: 68.9rem;
+    margin: 4rem 0 4.3rem 0;
   }
 }
 
@@ -60,6 +62,7 @@ body {
     grid-template-rows: 4.8rem 68.1rem 50.4rem 138rem 2.6rem;
     width: 32.7rem;
     max-width: 32.7rem;
+    margin: 2.3rem 0 5rem 0;
   }
 }
 
