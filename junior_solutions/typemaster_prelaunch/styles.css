@@ -121,17 +121,51 @@ header {
 
 .top {
   display: flex;
+  align-items: center;
+  max-width: 44.5rem;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 31.9rem;
+  max-height: 31.9rem;
 }
 
 .title {
   font-size: 5.6rem;
   font-weight: 900;
   text-transform: uppercase;
-  max-width: 44.5rem;
 }
 
 .sub-title {
-  
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+  color: var(--lightBlue);
+}
+
+.top-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.top-button {
+  background-color: var(--orange);
+  color: white;
+  margin-right: 4.2rem;
+}
+
+.top-button:hover {
+  background-color: var(--lightOrange);
+}
+
+.release-date {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--lightBlue);
 }
 
 
