@@ -150,11 +150,52 @@ header {
   border-radius: 20px;
 }
 
+  /*************************************/ 
+  /*************** MIDDLE **************/
+  /*************************************/ 
 
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.middle-picture-container {
+  display: flex;
+  justify-content: space-between;
+  height: 480px;
+  width: 73rem;
+  max-width: 73rem;
+}
 
+.middle-picture-container img {
+  height: 100%;
+  border-radius: 20px;
+}
 
+.middle-container {
+  height: 26.5rem;
+  width: 25.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.middle-title {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+
+.middle-sub-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: var(--lightBlue);
+}
 
 
 
@@ -205,6 +246,29 @@ header {
   }
 
   /********** MIDDLE **********/
+  .middle {
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 768px;
+  }
+  
+  .middle-picture-container {
+    height: 32rem;
+    width: auto;
+  }
+  
+  .middle-container {
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .middle-title {
+    max-width: 25.5rem;
+  }
+  
+  .middle-sub-title {
+    max-width: 39.8rem;
+  }
   /********** BOTTOM **********/
   /********** FOOTER **********/
 
@@ -254,6 +318,28 @@ header {
   }
 
   /********** MIDDLE **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /********** BOTTOM **********/
   /********** FOOTER **********/
 
