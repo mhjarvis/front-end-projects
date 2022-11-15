@@ -59,50 +59,6 @@ button {
   border-radius: .8rem;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    grid-template-rows: 12rem 45.5rem 50rem 65rem 2.6rem;
-    width: 68.9rem;
-    max-width: 68.9rem;
-    margin: 4rem 0 4.3rem 0;
-  }
-
-  header {
-    margin-bottom: 6.2rem;
-  }
-
-  .top {
-    padding-bottom: 4rem;
-  }
-
-  .top-left * {
-    max-width: 33.9rem;
-  }
-  
-  .top-right {
-    margin-left: 69px;
-    max-height: 42.5rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .container {
-    grid-template-rows: 11.2rem 68.1rem 50.4rem 138rem 2.6rem;
-    width: 32.7rem;
-    max-width: 32.7rem;
-    margin: 2.3rem 0 5rem 0;
-  }
-
-  button {
-    height: 4.8rem;
-    width: 15.1rem;
-  }
-
-  header {
-    margin-bottom: 6.4rem;
-  }
-}
-
   /*************************************/ 
   /************** HEADER **************/
   /*************************************/ 
@@ -129,7 +85,7 @@ header {
 }
 
   /*************************************/ 
-  /************** TOP **************/
+  /**************** TOP ****************/
   /*************************************/ 
 
 .top {
@@ -193,6 +149,116 @@ header {
   width: auto;
   border-radius: 24px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*************************************/ 
+  /*************** MEDIA ***************/
+  /*************************************/ 
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-rows: 12rem 45.5rem 50rem 65rem 2.6rem;
+    width: 68.9rem;
+    max-width: 68.9rem;
+    margin: 4rem 0 4.3rem 0;
+  }
+
+  /********** HEADER **********/
+  header {
+    margin-bottom: 6.2rem;
+  }
+
+  /********** TOP **********/
+  .top {
+    padding-bottom: 4rem;
+  }
+
+  .top-left * {
+    width: 33.9rem;
+    max-width: 33.9rem;
+  }
+  
+  .top-right {
+    margin-left: 69px;
+    max-height: 42.5rem;
+  }
+
+  .title {
+    font-size: 4.8rem !important;
+  }
+  
+  .sub-title {
+    font-size: 1.6rem !important;
+  }
+
+  /********** MIDDLE **********/
+  /********** BOTTOM **********/
+  /********** FOOTER **********/
+
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    grid-template-rows: 11.2rem 70.5rem 50.4rem 138rem 2.6rem;
+    width: 32.7rem;
+    max-width: 32.7rem;
+    margin: 2.3rem 0 5rem 0;
+  }
+
+  button {
+    height: 4.8rem;
+    width: 15.1rem;
+  }
+
+  /********** HEADER **********/
+  header {
+    margin-bottom: 6.4rem;
+  }
+
+  /********** TOP **********/
+  .top {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .top-left {
+    width: 32.7rem;
+    max-height: 28.6rem;
+  }
+
+  .top-right {
+    padding-bottom: 2.4rem;
+  }
+
+  .keyboard-image img {
+    height: 33.1rem;
+    position: absolute;
+    left: 0;
+    top: 35rem;
+  }
+
+  /********** MIDDLE **********/
+  /********** BOTTOM **********/
+  /********** FOOTER **********/
+
+}
+
+
+
+
 
 
 
