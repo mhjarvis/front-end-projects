@@ -197,9 +197,20 @@ header {
   color: var(--lightBlue);
 }
 
+  /*************************************/ 
+  /*************** BOTTOM **************/
+  /*************************************/ 
 
 
 
+
+
+
+
+
+
+
+  
 
 
 
@@ -235,6 +246,7 @@ header {
   .top-right {
     margin-left: 69px;
     max-height: 42.5rem;
+    border-radius: 20px;
   }
 
   .title {
@@ -254,7 +266,9 @@ header {
   
   .middle-picture-container {
     height: 32rem;
-    width: auto;
+    width: 100%;
+    border-radius: 20px;
+
   }
   
   .middle-container {
@@ -276,7 +290,7 @@ header {
 
 @media screen and (max-width: 375px) {
   .container {
-    grid-template-rows: 11.2rem 74.5rem 50.4rem 138rem 2.6rem;
+    grid-template-rows: 11.2rem 74.5rem 57.9rem 138rem 2.6rem;
     width: 32.7rem;
     max-width: 32.7rem;
     margin: 2.3rem 0 5rem 0;
@@ -319,8 +333,30 @@ header {
 
   /********** MIDDLE **********/
 
+  .middle {
+    padding-bottom: 7.5rem;
+  }
 
+  .middle-picture-container {
+    max-height: 19.3rem;
+  }
 
+  .keyboard-phone-image {
+    max-width: 12.9rem;
+    margin-right: 2.4rem;
+  }
+
+  .keyboard-glass-image {
+    max-width: 22rem;
+  }
+
+  .middle-container {
+    flex-direction: column;   
+  }
+
+  .middle-title, .middle-sub-title {
+    text-align: center;
+  }
 
 
 
