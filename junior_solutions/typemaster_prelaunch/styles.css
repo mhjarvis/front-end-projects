@@ -61,7 +61,7 @@ button {
 
 @media screen and (max-width: 768px) {
   .container {
-    grid-template-rows: 12rem 42.5rem 50rem 65rem 2.6rem;
+    grid-template-rows: 12rem 45.5rem 50rem 65rem 2.6rem;
     width: 68.9rem;
     max-width: 68.9rem;
     margin: 4rem 0 4.3rem 0;
@@ -69,6 +69,19 @@ button {
 
   header {
     margin-bottom: 6.2rem;
+  }
+
+  .top {
+    padding-bottom: 4rem;
+  }
+
+  .top-left * {
+    max-width: 33.9rem;
+  }
+  
+  .top-right {
+    margin-left: 69px;
+    max-height: 42.5rem;
   }
 }
 
@@ -124,6 +137,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-bottom: 3rem;
+  overflow: hidden;
 }
 
 .top-left {
@@ -171,10 +185,7 @@ header {
 }
 
 .top-right {
-  
-}
-
-.keyboard-image {
+  overflow: hidden;
 }
 
 .keyboard-image img {
