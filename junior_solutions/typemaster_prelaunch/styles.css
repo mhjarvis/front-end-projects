@@ -18,8 +18,8 @@
 /*************************************/ 
 
 * {
-    outline: 1px solid red;
-}
+/*     outline: 1px solid red;
+ */}
 
 :root {
     font-size: 10px;
@@ -147,7 +147,7 @@ header {
 .keyboard-image img {
   max-height: 48rem;
   width: auto;
-  border-radius: 24px;
+  border-radius: 20px;
 }
 
 
@@ -240,14 +240,12 @@ header {
   }
 
   .top-right {
-    padding-bottom: 2.4rem;
   }
 
   .keyboard-image img {
     height: 33.1rem;
-    position: absolute;
     left: 0;
-    top: 35rem;
+    opacity: 0.4;
   }
 
   /********** MIDDLE **********/
