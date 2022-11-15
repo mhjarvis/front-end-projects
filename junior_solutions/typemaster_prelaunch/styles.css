@@ -239,8 +239,28 @@ header {
   color: var(--lightBlue);
 }
 
+  /*************************************/ 
+  /*************** FOOTER **************/
+  /*************************************/ 
 
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.typemaster {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--lightBlue);
+}
+
+.all-rights-reserved {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--lightBlue);
+}
 
 
 
