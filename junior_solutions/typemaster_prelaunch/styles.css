@@ -42,7 +42,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 13.4rem 48rem 48rem 48rem 2.6rem;
+  grid-template-rows: 13.4rem 51rem 48rem 48rem 2.6rem;
   width: 111rem;
   max-width: 111rem;
   margin: 5.5rem 0 3.9rem 0;
@@ -122,7 +122,8 @@ header {
 .top {
   display: flex;
   align-items: center;
-  max-width: 44.5rem;
+  justify-content: space-between;
+  padding-bottom: 3rem;
 }
 
 .top-left {
@@ -131,6 +132,7 @@ header {
   justify-content: space-between;
   height: 31.9rem;
   max-height: 31.9rem;
+  max-width: 44.5rem;
 }
 
 .title {
@@ -167,6 +169,20 @@ header {
   text-transform: uppercase;
   color: var(--lightBlue);
 }
+
+.top-right {
+  
+}
+
+.keyboard-image {
+}
+
+.keyboard-image img {
+  max-height: 48rem;
+  width: auto;
+  border-radius: 24px;
+}
+
 
 
 /************** HEADER ***************/
