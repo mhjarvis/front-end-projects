@@ -1,4 +1,4 @@
-# Frontend Mentor - Typemaster pre-launch landing page solution
+# Typemaster pre-launch landing page solution
 
 This is a solution to the [Typemaster pre-launch landing page challenge on Frontend Mentor](). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -17,8 +17,6 @@ This is a solution to the [Typemaster pre-launch landing page challenge on Front
     - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
