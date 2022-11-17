@@ -11,15 +11,9 @@
     4. MOBILE
 */
 
-/* #region GENERAL */
-
 /*************************************/ 
 /************** GENERAL **************/
 /*************************************/ 
-
-* {
-    outline: 1px solid red;
-}
 
 :root {
     font-size: 10px;
@@ -42,7 +36,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 13.4rem 51rem 48rem 48rem 2.6rem;
+  grid-template-rows: 13.4rem 51rem 64.8rem 45.1rem 2.6rem;
   width: 111rem;
   max-width: 111rem;
   margin: 5.5rem 0 3.9rem 0;
@@ -158,6 +152,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 16.8rem;
 }
 
 .middle-picture-container {
@@ -169,8 +164,8 @@ header {
 }
 
 .middle-picture-container img {
-  height: 100%;
   border-radius: 20px;
+  height: 48rem;
 }
 
 .middle-container {
@@ -197,6 +192,20 @@ header {
   color: var(--lightBlue);
 }
 
+.keyboard-phone-image {
+  position: relative;
+}
+
+.keyboard-phone-image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--orange);
+  width: 100%;
+  height: 100%;
+}
+
   /*************************************/ 
   /*************** BOTTOM **************/
   /*************************************/ 
@@ -205,6 +214,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 12.8rem;
 }
 
 .bottom-divs {
@@ -230,6 +240,7 @@ header {
   font-weight: 900;
   line-height: 2.8rem;
   color: var(--blue);
+  text-transform: uppercase;
 }
 
 .bottom-text {
@@ -277,7 +288,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   .container {
-    grid-template-rows: 12rem 45.5rem 50rem 65rem 2.6rem;
+    grid-template-rows: 12rem 45.5rem 64.2rem 65rem 16.8rem;
     width: 68.9rem;
     max-width: 68.9rem;
     margin: 4rem 0 4.3rem 0;
@@ -312,6 +323,16 @@ footer {
     font-size: 1.6rem !important;
   }
 
+  .top-right, .keyboard-glass-image img {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .keyboard-phone-image img {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
   /********** MIDDLE **********/
   .middle {
     flex-direction: column;
@@ -323,12 +344,28 @@ footer {
     height: 32rem;
     width: 100%;
     border-radius: 20px;
+    object-fit: cover;
+  }
 
+  .keyboard-phone-image img {
+    height: 32rem;
+    width: 21.4rem;
+    max-width: 21.4rem;
+  }
+  
+  .keyboard-glass-image img {
+    height: 32rem;
+    width: 44.5rem;
+    max-width: 44.5rem;
+  }
+
+  .middle-picture-container picture img {
   }
   
   .middle-container {
     flex-direction: row;
     width: 100%;
+    margin-top: 7.2rem;
   }
   
   .middle-title {
@@ -339,13 +376,32 @@ footer {
     max-width: 39.8rem;
   }
   /********** BOTTOM **********/
-  /********** FOOTER **********/
 
+  .bottom {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 63.1rem;
+  }
+
+  .bottom-divs {
+    width: 28.1rem;
+    height: 28.9rem;
+  }
+
+  .bottom-1, .bottom-2 {
+    margin-bottom: 70px;
+  }
+
+  /********** FOOTER **********/
+  
+  footer {
+    padding-top: 14.2rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .container {
-    grid-template-rows: 11.2rem 74.5rem 57.9rem 138rem 2.6rem;
+    grid-template-rows: 11.2rem 74.5rem 57.9rem 138rem 7.6rem;
     width: 32.7rem;
     max-width: 32.7rem;
     margin: 2.3rem 0 5rem 0;
@@ -390,18 +446,21 @@ footer {
 
   .middle {
     padding-bottom: 7.5rem;
+    
   }
 
   .middle-picture-container {
     max-height: 19.3rem;
   }
 
-  .keyboard-phone-image {
+  .keyboard-phone-image img {
+    height: 19.3rem;
     max-width: 12.9rem;
     margin-right: 2.4rem;
   }
 
-  .keyboard-glass-image {
+  .keyboard-glass-image img {
+    height: 19.3rem;
     max-width: 22rem;
   }
 
@@ -413,27 +472,40 @@ footer {
     text-align: center;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /********** BOTTOM **********/
+
+  .bottom {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;   
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .bottom-1, .bottom-2 {
+    margin-bottom: 0;
+  }
+
+  .bottom-divs {
+    align-items: center;
+    justify-content: space-between;
+    width: 32.7rem;
+    max-width: 32.7rem;
+  }
+
+  .bottom-title {
+    text-align: center;
+  }
+
+  .bottom-text {
+    text-align: center;
+  }
+
   /********** FOOTER **********/
 
+  footer {
+    padding-bottom: 5rem;
+  }
 }
 
 
