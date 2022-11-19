@@ -1,10 +1,13 @@
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 * {
   outline: 1px solid red;
 }
 
 :root {
+  font-size: 10px;
+  font-family: 'Lexend Deca', sans-serif;
   --orange: hsl(31, 77%, 52%);
   --cyan: hsl(184, 100%, 22%);
   --dark-cyan: hsl(179, 100%, 13%);
@@ -15,6 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #f2f2f2;
 }
 
 .container {
@@ -23,15 +27,98 @@ body {
   height: 500px;
 }
 
-/* Layout 
-Primary 
-Bright orange: hsl(31, 77%, 52%) Dark cyan: hsl(184, 100%, 22%) Very dark cyan: hsl(179, 100%, 13%) 
-Neutral 
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75) Very light gray (background, headings, buttons): hsl(0, 0%, 95%) 
-Typography 
-Body Copy 
-Font size: 15px 
-Font Family: Lexend Deca
-Weights: 400
-Family: Big Shoulders Display
-Weights: 700 */
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+/********************** MAIN **********************/
+
+.left, .mid, .right {
+  padding: 4.8rem 4.7rem;
+}
+
+.left {
+  background-color: var(--orange);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.mid {
+  background-color: var(--cyan);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.right {
+  background-color: var(--dark-cyan);
+  border-radius: 8px;
+}
+
+.img-container-1, .img-container-2, .img-container-3 {
+  position: relative;
+}
+
+/******************* HEADER IMAGE ******************/
+
+.circle {
+  background-color: #000;
+  opacity: 0.2;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.img-container-1 {
+  background-image: url(./images/icon-sedans.svg);
+  background-repeat:no-repeat;
+}
+
+.img-container-2 {
+  background-image: url(./images/icon-suvs.svg);
+  background-repeat:no-repeat;
+}
+
+.img-container-3 {
+  background-image: url(./images/icon-luxury.svg);
+  background-repeat:no-repeat;
+}
+
+.car-1, .car-2, .car-3 {
+  width: 4.4rem;
+}
+
+/******************* BUTTON ******************/
+
+button {
+  font-family: 'Lexend Deca', sans-serif;
+  height: 4.8rem;
+  width: 14.6rem;
+  border-radius: 24px;
+  border: none;
+}
+
+.button-1 {
+  color: var(--orange);
+}
+
+.button-2 {
+  color: var(--cyan);
+}
+
+.button-3 {
+  color: var(--dark-cyan);
+}
