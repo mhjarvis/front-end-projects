@@ -1,7 +1,37 @@
 @import url(./reset.css);
 
+* {
+  outline: 1px solid red;
+}
+
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --dark-cyan: hsl(179, 100%, 13%);
+}
+
 body {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.container {
+  display: flex;
+  width: 920px;
+  height: 500px;
+}
+
+/* Layout 
+Primary 
+Bright orange: hsl(31, 77%, 52%) Dark cyan: hsl(184, 100%, 22%) Very dark cyan: hsl(179, 100%, 13%) 
+Neutral 
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75) Very light gray (background, headings, buttons): hsl(0, 0%, 95%) 
+Typography 
+Body Copy 
+Font size: 15px 
+Font Family: Lexend Deca
+Weights: 400
+Family: Big Shoulders Display
+Weights: 700 */
