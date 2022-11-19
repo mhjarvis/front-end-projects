@@ -1,10 +1,6 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-* {
-  outline: 1px solid red;
-}
-
 :root {
   font-size: 10px;
   font-family: 'Lexend Deca', sans-serif;
@@ -24,7 +20,6 @@ body {
 .container {
   display: flex;
   width: 920px;
-  height: 500px;
 }
 
 h2 {
@@ -48,7 +43,11 @@ h2 {
 /********************** MAIN **********************/
 
 .left, .mid, .right {
+  height: 500px;
   padding: 4.8rem 4.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .left {
@@ -111,6 +110,12 @@ button {
   border: none;
 }
 
+button:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
 .button-1 {
   color: var(--orange);
 }
@@ -121,4 +126,24 @@ button {
 
 .button-3 {
   color: var(--dark-cyan);
+}
+
+/************* MEDIA SCREEN **************/
+
+@media screen and (max-width: 375px) {
+
+  body {
+    
+  }
+
+  .left, .mid, .right {
+    height: 442px;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 327px;
+  }
+
+
 }
