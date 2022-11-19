@@ -133,17 +133,34 @@ button:hover {
 @media screen and (max-width: 375px) {
 
   body {
-    
+    position: relative;
+    height: initial;
   }
 
   .left, .mid, .right {
-    height: 442px;
+    border-radius: 0;
   }
 
   .container {
     flex-direction: column;
     width: 327px;
+    margin: 10px 0;
   }
 
+  .left, .mid {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 450px;
+  }
+
+  .mid {
+    margin-top: -8px;;
+  }
+
+  .right {
+    height: 442px;
+    margin-top: -8px;
+    border-radius: 8px;
+  }
 
 }
