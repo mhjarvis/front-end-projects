@@ -1,12 +1,22 @@
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-
-
+* {
+/*   outline: 1px solid red;
+ */}
 
 :root {
   font-size: 10px;
+  font-family: 'Outfit', sans-serif;
 
+  /******* COLORS *******/
 
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --blue-background: hsl(217, 54%, 11%);
+  --blue-card: hsl(216, 50%, 16%);
+  --blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
 }
 
 body {
@@ -14,63 +24,110 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--blue-background);
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 596px;
   width: 350px;
-  padding: 2.4rem;
+  padding: 24px;
+  background-color: var(--blue-card);
+  border-radius: 15px;
 }
 
+p {
+  font-size: 1.8rem;
+}
 
-
-
-
+/************ MAIN ************/
 
 .equilibrium-img {
-  height: 304px;
-  width: auto;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 24px;
 }
 
+.eq-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+  color: var(--white);
+  margin-bottom: 16px;
+}
 
+.eq-description {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+  color: var(--soft-blue);
+  margin-bottom: 24px;
+}
 
+/************ CONTAINERS ************/
 
+.bid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--blue-line);
+}
 
+.price-container, .time-container, .profile-container {
+  display: flex;
+}
 
-/*
+.price-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 
+.etherum-icon {
+  height: 18px;
+  width: 11px;
+}
 
+.price {
+  color: var(--cyan);
+  margin-left: 7px;
+  line-height: 20px;
+}
 
-# Front-end Style Guide
+.time-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--soft-blue)
+}
 
-## Layout
+.time-left {
+  margin-left: 7px;
+}
 
-The designs were created to the following widths:
+.profile-container {
+  margin-top: 16px;
+  align-items: center;
+}
 
-- Mobile: 375px
-- Desktop: 1440px
+.profile-image {
+  height: 33px;
+  width: auto;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 16px;
+}
 
-## Colors
-
-### Primary
-
-- Soft blue: hsl(215, 51%, 70%)
-- Cyan: hsl(178, 100%, 50%)
-
-### Neutral
-
-- Very dark blue (main BG): hsl(217, 54%, 11%)
-- Very dark blue (card BG): hsl(216, 50%, 16%)
-- Very dark blue (line): hsl(215, 32%, 27%)
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 18px
-
-### Font
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 300, 400, 600
+.creation-by {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--soft-blue);
+  
+}
