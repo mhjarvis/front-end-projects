@@ -3,6 +3,34 @@
 
 
 
+:root {
+  font-size: 10px;
+
+
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 596px;
+  width: 350px;
+  padding: 2.4rem;
+}
+
+
+
+
+
+
+.equilibrium-img {
+  height: 304px;
+  width: auto;
+}
 
 
 
