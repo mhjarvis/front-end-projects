@@ -20,6 +20,8 @@ body {
 .container {
   display: flex;
   width: 920px;
+  background-color: var(--orange);
+  border-radius: 8px;;
 }
 
 h2 {
@@ -162,5 +164,4 @@ button:hover {
     margin-top: -8px;
     border-radius: 8px;
   }
-
 }
