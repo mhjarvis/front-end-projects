@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 596px;
-  width: 350px;
+  max-width: 302px;
   padding: 24px;
   background-color: var(--blue-card);
   border-radius: 15px;
@@ -42,14 +42,76 @@ p {
   font-size: 1.8rem;
 }
 
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--cyan);
+}
+
+
+
 /************ MAIN ************/
 
-.equilibrium-img {
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 302px;
+  height: 302px;
+  background-color: white;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.image-container:hover::after {
+  position: absolute;
+  content: '';
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+  background-color: var(--cyan);
+  opacity: 50%;
+  border-radius: 8px;
+}
+
+.e-image {
+  width: 304px;
+  height: 304px;
+  border-radius: 8px;
+}
+
+.view-image {
+  position: absolute;
+  border-radius: 8px;
+  height: 100%
+  display: none;
+}
+
+.view-image:hover {
+  display: initial;
+  position: absolute;
+  z-index: 2;
+  background-color: var(--cyan);
+}
+
+
+
+/* .equilibrium-img {
+  position: relative;
   height: auto;
   width: 100%;
   border-radius: 8px;
   margin-bottom: 24px;
 }
+
+.equilibrium-img:hover {
+
+} */
 
 .eq-title {
   font-size: 2.2rem;
@@ -129,5 +191,5 @@ p {
   font-weight: 400;
   line-height: 20px;
   color: var(--soft-blue);
-  
+
 }
