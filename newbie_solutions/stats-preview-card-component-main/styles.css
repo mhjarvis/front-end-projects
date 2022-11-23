@@ -29,32 +29,6 @@ body {
 }
 
 .card {
-  display: grid;
-  max-width: 1110px;
-  grid-template-columns: 1fr 1fr;
-  background-color: var(--des-blue);
-  overflow: hidden;
-  border-radius: 8px;
+  
 }
 
-.left {
-  padding: 7.5rem;
-  min-width:fit-content;
-}
-
-.right {
-  max-width: 540px;
-}
-
-
-
-@media screen and (max-width: 400px) {
-
-  .card {
-    flex-direction: column-reverse;
-  }
-
-
-
-
-}
