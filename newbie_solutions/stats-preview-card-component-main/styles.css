@@ -44,12 +44,20 @@ body {
   justify-content: space-between;
   height: 30rem;
   padding: 7rem;
+  max-width: 54rem;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  max-width: 38rem;
 }
 
 .card-title {
   font-size: 3.6rem;
   font-weight: 700;
   line-height: 4.4rem;
+  margin-bottom: 3rem;
 }
 
 .card-text {
@@ -62,16 +70,18 @@ body {
 .purple {
   color: var(--violet);
 }
-.number-container {
+
+.stat-container {
   display: flex;
   justify-content: space-between;
-  max-width: 30rem;
+  max-width: 35rem;
 }
 
 .stat > h3 {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 2.9rem;
+  color: var(--transparent-white)
 }
 
 .stat > p {
@@ -85,7 +95,7 @@ body {
 .right {
   position: relative;
   height: 446px;
-  min-width: 540px;
+  max-width: 54rem;
 }
 
 img {
@@ -110,11 +120,27 @@ img {
   border-bottom-right-radius: 8px;
 }
 
-/* Very dark blue (main background): hsl(233, 47%, 7%)
-Dark desaturated blue (card background): hsl(244, 38%, 16%)
-Soft violet (accent): hsl(277, 64%, 61%) 
-Neutral 
-White (main heading, stats): hsl(0, 0%, 100%)
-Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
-Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6) 
- */
+@media screen and (max-width: 400px) {
+  
+  :root {
+    font-size: 9px;
+  }
+
+  .right {
+    max-height: 24rem;
+  }
+
+  .card {
+    flex-direction: column-reverse;
+    width: 375px;
+    height: 768px;
+  }
+
+  h2, h3, p {
+    text-align: center;
+  }
+
+  .stat-container {
+    flex-direction: column;
+  }
+}
