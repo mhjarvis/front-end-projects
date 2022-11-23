@@ -29,9 +29,16 @@ body {
 }
 
 .card {
-  display: flex;
+  display: grid;
+  max-width: 1110px;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--des-blue);
+  
 }
 
+.left {
+  padding: 7.5rem;
+}
 
 
 
