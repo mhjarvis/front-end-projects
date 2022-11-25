@@ -7,8 +7,8 @@ font-family: 'Lexend Deca', sans-serif;
 */
 
 * {
-/*   outline: 1px solid red;
- */}
+  outline: 1px solid red;
+}
 
 :root {
   font-size: 10px;
@@ -48,8 +48,32 @@ body {
   }
 }
  */
-.office-image {
+
+ .top-container {
+  position: relative;
+ }
+
+ .top-container::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background-color: hsl(277, 64%, 61%);
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+ }
+
+ .office-image {
   max-height: 240px;
+ }
+
+.stat-container {
+  position: relative;
+  height: 240px;
+  width: 300px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .bottom {
