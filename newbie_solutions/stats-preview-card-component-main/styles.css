@@ -30,7 +30,6 @@ body {
 
 .card {
   display: flex;
-  flex-direction: column-reverse;
   max-width: 32.7rem;
   height: 78rem;
   overflow: hidden;
@@ -51,8 +50,8 @@ body {
 .bottom {
   text-align: center;
   display: flex;
+  height: 54rem;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .card-title {
