@@ -95,8 +95,7 @@ body {
 @media (min-width: 500px) {
   .stat-container {
     display: flex;
-    justify-content: 
-    }
+  }
 }
 
 .bottom {
@@ -111,7 +110,10 @@ body {
 @media (min-width: 500px) {
   .bottom {
     max-width: 40rem;
+    max-height: 30.4rem;
     padding: 7.1rem;
+    text-align: initial;
+    align-items: flex-start;
   }
 }
 
@@ -139,7 +141,6 @@ body {
   .stat-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
   }
 }
 
@@ -149,6 +150,8 @@ body {
   font-weight: 700;
   line-height: 2.9rem;
 }
+
+
 
 .stat > :nth-child(2) {
   font-size: 1.2rem;
