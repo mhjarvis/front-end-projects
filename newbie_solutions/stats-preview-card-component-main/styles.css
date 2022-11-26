@@ -81,6 +81,7 @@ body {
   .office-image {
     min-height: 44.6rem;
     width: 100%;
+    object-fit: fill;
     border-top-left-radius: 0;
     border-bottom-right-radius: 8px;
   }
