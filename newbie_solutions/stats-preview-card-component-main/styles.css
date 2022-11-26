@@ -1,11 +1,6 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-/* 
-font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif; 
-*/
-
 * {
 /*   outline: 1px solid red;
  */}
@@ -32,6 +27,7 @@ body {
   justify-content: center;
 }
 
+/**************** MAIN CONTAINER **************/
 .card {
   display: flex;
   flex-direction: column;
@@ -42,14 +38,16 @@ body {
   border-radius: 8px;
 }
 
-/* @media (min-width: 800px) {
+@media (min-width: 500px) {
   .card {
-    max-width: 1110px;
+    flex-direction: row-reverse;
+    height: 44.6rem;
+    width: 111rem;
   }
 }
- */
 
- .top-container {
+/**************** IMAGE ELEMENT **************/
+.top-container {
   position: relative;
  }
 
@@ -72,6 +70,19 @@ body {
   border-top-left-radius: 8px;
  }
 
+ @media (min-width: 500px) {
+  .top-container::after {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 8px;
+  }
+  .office-image {
+    max-height: 44.6rem;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 8px;
+  }
+ }
+
+/**************** STAT CONTAINER **************/
 .stat-container {
   position: relative;
   height: 240px;
