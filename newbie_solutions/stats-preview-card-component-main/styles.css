@@ -41,6 +41,7 @@ body {
 @media (min-width: 500px) {
   .card {
     flex-direction: row-reverse;
+    justify-content: space-between;
     height: 44.6rem;
     width: 111rem;
   }
@@ -91,6 +92,13 @@ body {
   border-top-left-radius: 8px;
 }
 
+@media (min-width: 500px) {
+  .stat-container {
+    display: flex;
+    justify-content: 
+    }
+}
+
 .bottom {
   display: flex;
   flex-direction: column;
@@ -98,6 +106,13 @@ body {
   height: 54rem;
   max-width: 26.4rem;
   text-align: center;
+}
+
+@media (min-width: 500px) {
+  .bottom {
+    max-width: 40rem;
+    padding: 7.1rem;
+  }
 }
 
 .card-title {
@@ -118,6 +133,14 @@ body {
 
 .stat-container {
   margin-top: 4rem;
+}
+
+@media (min-width: 500px) {
+  .stat-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .stat > :first-child {
