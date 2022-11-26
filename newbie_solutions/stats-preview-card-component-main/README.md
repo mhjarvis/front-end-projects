@@ -19,7 +19,7 @@ A preview card built with HTML and CSS that is responsive.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
