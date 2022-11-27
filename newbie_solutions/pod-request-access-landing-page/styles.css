@@ -16,6 +16,10 @@
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   background-color: var(--blue);
   color: var(--white);
 }
@@ -40,6 +44,7 @@ button:hover {
   justify-content: space-between;
   width: 32.7rem;
   height: 66.7rem;
+  padding: 6.2rem 2.4rem 9.4rem 2.4rem;
 }
 
 .container::after {
