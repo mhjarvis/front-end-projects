@@ -1,8 +1,12 @@
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&display=swap');
 
 /************ GENERAL *************/
 
 :root {
+
+  font-family: 'Chivo', sans-serif;
+
   --green: hsl(157deg, 74%, 62%);
   --gray-blue: hsl(225deg, 26%, 23%);
   --blue: hsl(224deg, 35%, 11%);
@@ -10,3 +14,4 @@
   --light-purple: hsl(225deg, 21%, 45%);
   --light-gray: hsl(225deg, 40%, 83%);  
 }
+
