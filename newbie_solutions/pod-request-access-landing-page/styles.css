@@ -1,2 +1,12 @@
 @import url(./reset.css);
 
+/************ GENERAL *************/
+
+:root {
+  --green: hsl(157deg, 74%, 62%);
+  --gray-blue: hsl(225deg, 26%, 23%);
+  --blue: hsl(224deg, 35%, 11%);
+  --white: hsl(0deg, 0%, 100%);
+  --light-purple: hsl(225deg, 21%, 45%);
+  --light-gray: hsl(225deg, 40%, 83%);  
+}
