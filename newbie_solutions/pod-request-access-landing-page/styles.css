@@ -1,10 +1,10 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&display=swap');
 
-/************ GENERAL *************/
+/********** GENERAL **********/
 
 :root {
-
+  font-size: 10px;
   font-family: 'Chivo', sans-serif;
 
   --green: hsl(157deg, 74%, 62%);
@@ -15,3 +15,36 @@
   --light-gray: hsl(225deg, 40%, 83%);  
 }
 
+body {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+button {
+  background-color: var(--green);
+  border: none;
+  border-radius: 24px
+}
+
+button:hover {
+  background-color: #b3ffe2;
+}
+
+/********** GENERAL **********/
+
+.container {
+  position: relative;
+  width: 32.7rem;
+  height: 66.7rem;
+}
+
+.container::after {
+  content: '';
+  background-image: url(./assets/mobile/image-host.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  opacity: .1;
+}
