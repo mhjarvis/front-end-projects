@@ -118,4 +118,5 @@ input::placeholder {
 
 .button {
   height: 4.6rem;
+  color: var(--blue);
 }
