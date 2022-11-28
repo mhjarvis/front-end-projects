@@ -103,6 +103,7 @@ input {
   border: none;
   border-radius: 2.4rem;
   background-color: hsl(225deg, 26%, 23%);
+  mix-blend-mode: ;
 }
 
 input::placeholder {
@@ -110,8 +111,9 @@ input::placeholder {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 2.8rem;
-  color: var(--white);
-    opacity: 1;
+  padding-left: 3.2rem;
+  opacity: 0.5;
+  color: #fff;
 
 }
 
