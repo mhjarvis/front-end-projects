@@ -94,7 +94,7 @@ em {
 
 .podcast-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 32.7rem;
   max-width: 32.7rem;
 }
@@ -104,10 +104,12 @@ em {
 }
 
 @media (max-width: 320px) {
+
   .podcast-container {
     flex-direction: column;
     align-items: center;
   }
+
   .logo {
     height: r1.7em;
     width: fit-content;
@@ -124,7 +126,6 @@ em {
   width: 32.7rem;
   height: 10.8rem;
   opacity: 1;
-
 }
 
 input {
