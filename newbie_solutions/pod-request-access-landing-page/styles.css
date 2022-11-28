@@ -99,6 +99,8 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 32.7rem;
+  width: 100%;
 }
 
 @media (min-width: 400px) {
@@ -118,11 +120,13 @@ section {
   flex-direction: column;
   justify-content: space-between;
   min-height: 17.3rem;
-  flex-direction: column-reverse;
+
 }
 
 @media (min-width: 400px) {
-  
+  .bottom {
+    flex-direction: column-reverse;
+  }
 }
 
 /********** TITLE **********/
@@ -157,14 +161,30 @@ section {
   max-width: 32.7rem;
 }
 
+@media (min-width: 400px) {
+  .title-sub-text {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-align: left;
+    max-width: 44.5rem;
+    font-weight: 100;
+  }
+}
+
 /********** PODCAST LOGOS **********/
 
 .podcast-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 31.5rem;
   max-width: 32.7rem;
+  width: 100%;
+}
+
+@media (min-width: 400px) {
+  .podcast-container {
+    max-width: 53.6rem;
+  }
 }
 
 .logo {
@@ -172,12 +192,30 @@ section {
   opacity: .5;
 }
 
+@media (min-width: 400px) {
+  .logo {
+    max-height: 2.9rem;
+  }
+}
+
 .google-podcast {
   max-height: 1.1rem;
 }
 
+@media (min-width: 400px) {
+  .google-podcast {
+    max-height: 1.8rem;
+  }
+}
+
 .pocket-podcast {
   max-height: 1.5rem;
+}
+
+@media (min-width: 400px) {
+  .pocket-podcast {
+    max-height: initial;
+  }
 }
 
 @media (max-width: 320px) {
@@ -197,6 +235,7 @@ section {
 /********** INPUT **********/
 
 .form {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -214,6 +253,7 @@ input {
   background-color: hsl(225deg, 26%, 23%);
   padding-left: 4rem;
   color: var(--white);
+  
 }
 
 input::placeholder {
