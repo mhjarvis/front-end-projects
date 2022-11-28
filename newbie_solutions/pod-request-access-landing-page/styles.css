@@ -57,6 +57,7 @@ em {
 
 @media (min-width: 400px) {
   .container {
+    align-items: flex-start;
     min-height: 102.4rem;
     max-width: 76.8rem;
   }
@@ -81,8 +82,22 @@ em {
     background-image: url(./assets/tablet/image-host.jpg);
     background-size: initial;
     left: 27.7rem;
-    
+    opacity: 1;
   }
+}
+
+section {
+  min-height: 39.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 17.3rem;
 }
 
 /********** TITLE **********/
