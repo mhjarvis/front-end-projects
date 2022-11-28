@@ -3,6 +3,10 @@
 
 /********** GENERAL **********/
 
+* {
+  outline: 1px solid red;
+}
+
 :root {
   font-size: 10px;
   font-family: 'Chivo', sans-serif;
@@ -35,8 +39,8 @@ button:hover {
 }
 
 em {
-  color: var(--green)
-;}
+  color: var(--green);
+}
 
 /********** GENERAL **********/
 
@@ -79,12 +83,24 @@ em {
 /********** TITLE-TEXT **********/
 
 .title-sub-text {
-  font-weight: 400;
   font-size: 1.5rem;
   line-height: 2.5rem;
   text-align: center;
   color: var(--light-gray);
   max-width: 32.7rem;
+}
+
+/********** PODCAST LOGOS **********/
+
+.podcast-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 32.7rem;
+  max-width: 32.7rem;
+}
+
+.logo {
+  max-height: 1.7rem;
 }
 
 /********** INPUT **********/
