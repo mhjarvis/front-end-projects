@@ -50,6 +50,8 @@ button:hover {
 .container::after {
   content: '';
   background-image: url(./assets/mobile/image-host.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
