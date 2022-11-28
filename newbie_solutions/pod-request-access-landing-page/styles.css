@@ -49,10 +49,11 @@ em {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 37.5rem;
   max-height: 66.7rem;
-  padding-top: 6.4rem;
+  padding-top: 6.2rem;
+  padding-bottom: 9.4rem;
 }
 
 .container::after {
