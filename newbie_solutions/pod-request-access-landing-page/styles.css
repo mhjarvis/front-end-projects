@@ -1,6 +1,5 @@
 @import url(./reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 /********** GENERAL **********/
 
 :root {
@@ -61,6 +60,12 @@ button:hover {
 }
 
 /********** TITLE **********/
+
+.title {
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 3.8rem;
+}
 
 /********** TITLE-TEXT **********/
 
