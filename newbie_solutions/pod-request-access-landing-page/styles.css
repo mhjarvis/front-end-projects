@@ -103,6 +103,18 @@ em {
   max-height: 1.7rem;
 }
 
+@media (max-width: 320px) {
+  .podcast-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    height: r1.7em;
+    width: fit-content;
+  }
+
+}
+
 /********** INPUT **********/
 
 .form {
