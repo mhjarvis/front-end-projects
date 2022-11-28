@@ -89,4 +89,19 @@ em {
 
 /********** INPUT **********/
 
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32.7rem;
+  height: 10.8rem;
+}
 
+.email {
+  height: 4.6rem;
+  border-radius: 2.4rem;
+}
+
+.button {
+  height: 4.6rem;
+}
