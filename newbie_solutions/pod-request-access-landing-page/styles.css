@@ -4,8 +4,8 @@
 /********** GENERAL **********/
 
 * {
-/*   outline: 1px solid red;
- */}
+  outline: 1px solid red;
+}
 
 :root {
   font-size: 10px;
@@ -44,6 +44,12 @@ em {
 
 /********** GENERAL **********/
 
+@media (min-width: 400px) {
+  .pod-image {
+    margin-top: 5rem; 
+  }
+}
+
 .container {
   position: relative;
   display: flex;
@@ -60,6 +66,8 @@ em {
     align-items: flex-start;
     min-height: 102.4rem;
     max-width: 76.8rem;
+    justify-content: flex-start;
+    
   }
 }
 
