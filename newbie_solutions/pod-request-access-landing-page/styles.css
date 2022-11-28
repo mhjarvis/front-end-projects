@@ -77,6 +77,15 @@ em {
 
 /********** TITLE-TEXT **********/
 
+.title-sub-text {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: var(--light-gray);
+  max-width: 32.7rem;
+}
+
 /********** INPUT **********/
 
 
