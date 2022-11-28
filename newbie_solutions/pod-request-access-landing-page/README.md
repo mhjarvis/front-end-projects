@@ -36,14 +36,51 @@ A preview card built with HTML and CSS that is responsive.
 
 ### What I learned
 
-This project helped reinforce adding an overlay color. 
+1. One issue I was having when creating smaller components was how to make it responsive so that it would adjust even when the window went below the lowwest height/width. One approach I found via https://xavortm.com/responsive-containers-in-css/:
 
-I also tried a new method to help organize my media queries by applying them inline. It seems there is some controversy about how best to apply these, but really appreciated the approach used by Ben Frain: https://benfrain.com/inline-or-combined-media-queries-in-sass-fight/
+Instead of using fixed height/width, such as:
+
+  .container {
+    height: 600px;
+    width: 375px;
+    background-image: url('someimage.png');
+    background-size: cover;
+  }
+
+We can use this approach to help resize content: 
+
+  .container {
+    height: 600px;
+    width: 100%;
+    width: 375px;
+    background-image: url('someimage.png');
+    background-size: cover;
+  }
+
 
 ## Author
 
 - Frontend Mentor - [@mhjarvis](https://www.frontendmentor.io/profile/mhjarvis)
 - GitHub - [@mhjarvis](https://github.com/mhjarvis)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Table of contents
 
@@ -88,44 +125,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
 
-### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
