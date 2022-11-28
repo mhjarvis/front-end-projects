@@ -61,7 +61,6 @@ em {
   width: 100%;
   height: 100%;
   opacity: .1;
-  mix-blend-mode: screen;
 }
 
 /********** TITLE **********/
@@ -95,11 +94,15 @@ em {
   justify-content: space-between;
   width: 32.7rem;
   height: 10.8rem;
+  opacity: 1;
+
 }
 
 input {
   height: 4.6rem;
+  border: none;
   border-radius: 2.4rem;
+  background-color: hsl(225deg, 26%, 23%);
 }
 
 input::placeholder {
@@ -108,6 +111,8 @@ input::placeholder {
   font-size: 1.4rem;
   line-height: 2.8rem;
   color: var(--white);
+    opacity: 1;
+
 }
 
 .button {
