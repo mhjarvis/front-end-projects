@@ -67,8 +67,9 @@ em {
     align-items: flex-start;
     min-height: 102.4rem;
     max-width: 76.8rem;
+    width: 100%;
     justify-content: flex-start;
-    
+    overflow: hidden;
   }
 }
 
@@ -92,6 +93,9 @@ em {
     background-size: initial;
     left: 27.7rem;
     opacity: 1;
+    max-width: 500px;
+    overflow: hidden;
+    width: 100%;
   }
 }
 
