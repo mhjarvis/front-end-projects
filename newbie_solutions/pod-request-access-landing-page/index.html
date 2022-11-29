@@ -16,9 +16,9 @@
 
     <div class="image-element">
       <picture>
-        <source>
-        <source>
-        <img src="./assets/mobile/image-host.jpg" alt="image-host">
+        <source media="(min-width: 400px)" srcset="./assets/tablet/image-host.jpg">
+        <source media="(min-width: 900px)" srcset="./assets/desktop/image-host.jpg">
+        <img src="./assets/mobile/image-host.jpg" alt="image-host" class="image-actual">
       </picture>
     </div>
 

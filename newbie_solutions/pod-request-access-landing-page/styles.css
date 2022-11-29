@@ -96,18 +96,41 @@ em {
   overflow: hidden;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 400px) {
   .image-element {
-    
+    opacity: 1;
+    right: 0;
+    left: initial;
+    max-width: 49.1rem;
+    width: 100%;
   }
 }
 
-.image-element > picture > img {
+@media (min-width: 900px) {
+  .image-element {
+    max-width: 88.8rem;
+    max-height: 64rem;
+  }
+}
+
+.image-actual {
   object-fit: contain;
   min-height: 66.7rem; 
   min-width: 37.5rem;
   max-width: 37.5rem;
   width: 100%;
+}
+
+@media (min-width: 400px) {
+  .image-actual {
+    max-width: 49.1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .image-actual {
+    max-width: 88.8rem;
+  }
 }
 
 /* .container::after {
@@ -124,7 +147,7 @@ em {
   z-index: -1;
 } */
 
-@media (min-width: 400px) {
+/* @media (min-width: 400px) {
   .container::after {
     background-image: url(./assets/tablet/image-host.jpg);
     background-size: initial;
@@ -134,7 +157,7 @@ em {
     overflow: hidden;
     width: 100%;
   }
-}
+} */
 
 @media (min-width: 900px) {
   .container::after {
