@@ -304,3 +304,18 @@ input::placeholder {
     top: 6px;
   }
 }
+
+/********** RANDOM **********/
+
+@media (min-width: 400px) {
+  .container:after {
+    content: '';
+    width: 23.2rem;
+    height: 10.4rem;
+    position: absolute;
+    top: 92rem;
+    left: 30px;
+    background-image: url(./assets/desktop/bg-pattern-dots.svg);
+    z-index: 2;
+  }
+}
