@@ -73,6 +73,13 @@ em {
   }
 }
 
+@media (min-width: 900px) {
+  .container {
+    max-width: 127.5rem;
+    min-height: 64rem;
+  }
+}
+
 .container::after {
   content: '';
   background-image: url(./assets/mobile/image-host.jpg);
