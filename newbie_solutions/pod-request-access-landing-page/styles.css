@@ -51,6 +51,13 @@ em {
   }
 }
 
+@media (min-width: 900px) {
+  .pod-image {
+    margin-top: 10.2rem;
+    margin-left: 16.5rem;
+  }
+}
+
 .container {
   position: relative;
   display: flex;
@@ -76,7 +83,7 @@ em {
 @media (min-width: 900px) {
   .container {
     max-width: 127.5rem;
-    min-height: 64rem;
+    min-height: 90rem;
   }
 }
 
@@ -106,6 +113,17 @@ em {
   }
 }
 
+@media (min-width: 900px) {
+  .container::after {
+    background-image: url(./assets/desktop/image-host.jpg);
+    max-width: 88.8rem;
+    max-height: 64rem;
+    left: 64rem;
+    top: 13rem;
+    background-size: contain;
+  }
+}
+
 section {
   min-height: 39.8rem;
   display: flex;
@@ -124,6 +142,14 @@ section {
     margin-top: 15.2rem;
     margin-left: 3.9rem;
     background-color: var(--blue);
+  }
+}
+
+@media (min-width: 900px) {
+  section {
+    min-height: 50.9rem;
+    margin-left: 16.5rem;
+    margin-top: 10.3rem;
   }
 }
 
@@ -323,4 +349,8 @@ input::placeholder {
     top: 15.3rem;
     background-image: url(./assets/desktop/bg-pattern-dots.svg);
   }
+}
+
+@media (min-width: 900px) {
+  
 }
