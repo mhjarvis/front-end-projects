@@ -47,6 +47,7 @@ em {
 @media (min-width: 400px) {
   .pod-image {
     margin-top: 5rem; 
+    margin-left: 3.9rem;
   }
 }
 
@@ -245,6 +246,12 @@ section {
   opacity: 1;
 }
 
+@media (min-width: 400px) {
+  .form {
+    max-width: 42.7rem;
+  }
+}
+
 input {
   position: relative;
   height: 4.6rem;
@@ -254,6 +261,14 @@ input {
   padding-left: 4rem;
   color: var(--white);
   
+}
+
+@media (min-width: 400px) {
+  input {
+    max-width: 42.7rem;
+    width: 100%;
+    min-height: 5.6rem;
+  }
 }
 
 input::placeholder {
@@ -269,7 +284,6 @@ input::placeholder {
   height: 4.6rem;
   color: var(--blue);
   font-weight: 600;
-  
   width: 100%;
-
 }
+
