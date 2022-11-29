@@ -249,6 +249,7 @@ section {
 @media (min-width: 400px) {
   .form {
     max-width: 42.7rem;
+    height: 5.6rem;
   }
 }
 
@@ -265,9 +266,10 @@ input {
 
 @media (min-width: 400px) {
   input {
-    max-width: 42.7rem;
+    max-width: 38.7rem;
     width: 100%;
-    min-height: 5.6rem;
+    min-height: 5.6rem;   
+     
   }
 }
 
@@ -280,6 +282,11 @@ input::placeholder {
   opacity: 0.5;
 }
 
+@media (min-width: 400px) {
+  input::placeholder {
+  }
+}
+
 .button {
   height: 4.6rem;
   color: var(--blue);
@@ -287,3 +294,13 @@ input::placeholder {
   width: 100%;
 }
 
+@media (min-width: 400px) {
+  .button {
+    min-height: 4.6rem;
+    max-width: 16.2rem;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 6px;
+  }
+}
