@@ -185,6 +185,7 @@ section {
 @media (min-width: 400px) {
   .podcast-container {
     max-width: 53.6rem;
+    position: relative;
   }
 }
 
@@ -282,11 +283,6 @@ input::placeholder {
   opacity: 0.5;
 }
 
-@media (min-width: 400px) {
-  input::placeholder {
-  }
-}
-
 .button {
   height: 4.6rem;
   color: var(--blue);
@@ -308,14 +304,12 @@ input::placeholder {
 /********** RANDOM **********/
 
 @media (min-width: 400px) {
-  .container:after {
+  .podcast-container:after {
     content: '';
     width: 23.2rem;
     height: 10.4rem;
     position: absolute;
-    top: 92rem;
-    left: 30px;
+    top: 15.3rem;
     background-image: url(./assets/desktop/bg-pattern-dots.svg);
-    z-index: 2;
   }
 }
