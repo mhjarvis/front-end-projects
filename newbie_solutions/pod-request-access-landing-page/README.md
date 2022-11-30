@@ -43,22 +43,22 @@ A preview card built with HTML and CSS that is responsive.
 
 Instead of using fixed height/width, such as:
 
-  .container {
-    height: 600px;
-    width: 375px;
-    background-image: url('someimage.png');
-    background-size: cover;
-  }
+    .container {
+      height: 600px;
+      width: 375px;
+      background-image: url('someimage.png');
+      background-size: cover;
+    }
 
 We can use this approach to help resize content: 
 
-  .container {
-    height: 600px;
-    width: 100%;
-    width: 375px;
-    background-image: url('someimage.png');
-    background-size: cover;
-  }
+    .container {
+      height: 600px;
+      width: 100%;
+      width: 375px;
+      background-image: url('someimage.png');
+      background-size: cover;
+    }
 
 ### Useful resources
 
