@@ -346,13 +346,14 @@ section {
 
 .error {
   position: absolute;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fb3e3e;
   display: none;
   left: 0;
   right: 0;
   margin: auto;
-  background-color: white;
   height: 1.4rem;
-  width: 100px;
   bottom: -2.8rem;
 }
 
