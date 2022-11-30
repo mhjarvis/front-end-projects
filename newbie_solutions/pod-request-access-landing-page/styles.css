@@ -54,7 +54,7 @@ em {
 @media (min-width: 900px) {
   .pod-image {
     margin-top: 10.2rem;
-    margin-left: 16.5rem;
+    margin-left: 0;
   }
 }
 
@@ -87,17 +87,17 @@ em {
   }
 }
 
-.image-element {
+.image-container {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
   opacity: .1;
-  overflow: hidden;
-}
+/*   overflow: hidden;
+ */}
 
 @media (min-width: 400px) {
-  .image-element {
+  .image-container {
     opacity: 1;
     right: 0;
     left: initial;
@@ -107,9 +107,11 @@ em {
 }
 
 @media (min-width: 900px) {
-  .image-element {
+  .image-container {
+    min-width: 88.8rem;
     max-width: 88.8rem;
     max-height: 64rem;
+    margin-top: 13rem;
   }
 }
 
@@ -130,6 +132,9 @@ em {
 @media (min-width: 900px) {
   .image-actual {
     max-width: 88.8rem;
+    width: 100%;
+    min-height: 64rem;
+    object-fit: none;
   }
 }
 
@@ -159,7 +164,7 @@ em {
   }
 } */
 
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   .container::after {
     background-image: url(./assets/desktop/image-host.jpg);
     max-width: 88.8rem;
@@ -168,7 +173,7 @@ em {
     top: 13rem;
     background-size: contain;
   }
-}
+} */
 
 section {
   min-height: 39.8rem;
@@ -195,7 +200,7 @@ section {
   section {
     min-height: 50.9rem;
     min-width: 72.3rem;
-    margin-left: 16.5rem;
+    margin-left: 0;
     margin-top: 10.3rem;
   }
 }
@@ -401,20 +406,22 @@ input::placeholder {
 
 /********** RANDOM **********/
 
-@media (min-width: 400px) {
-  .podcast-container:after {
-    content: '';
-    width: 23.2rem;
-    height: 10.4rem;
-    position: absolute;
-    top: 15.3rem;
-    background-image: url(./assets/desktop/bg-pattern-dots.svg);
-  }
+.dots {
+  display: none;
 }
 
+@media (min-width: 400px) {
+  
+  .dots {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+  }
+
+
 @media (min-width: 900px) {
-  .podcast-container:after {
-    left: 90rem;
-    top: 0;
+  .dots {
+    right: 0;
   }
 }
