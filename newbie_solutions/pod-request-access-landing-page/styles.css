@@ -344,6 +344,18 @@ section {
   opacity: 1;
 }
 
+.error {
+  position: absolute;
+  display: none;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  height: 1.4rem;
+  width: 100px;
+  bottom: -2.8rem;
+}
+
 @media (min-width: 400px) {
   .form {
     max-width: 42.7rem;
