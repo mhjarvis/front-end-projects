@@ -20,12 +20,14 @@ A preview card built with HTML and CSS that is responsive.
 
 ### Screenshot
 
-![](./screenshot.png)
+![Desktop](./desktop.png)
+![Tablet](./tablet.png)
+![Mobile](./mobile.png)
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/mhjarvis/frontend-mentor-projects/tree/main/newbie_solutions/pod-request-access-landing-page](https://github.com/mhjarvis/frontend-mentor-projects/tree/main/newbie_solutions/pod-request-access-landing-page)
+- Live Site URL: [https://mhjarvis-pod-request-landing-page.netlify.app/](https://mhjarvis-pod-request-landing-page.netlify.app/)
 
 ## My process
 
