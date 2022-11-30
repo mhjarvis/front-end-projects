@@ -1,7 +1,7 @@
-const email = doc
-document.querySelector('button');
+const email = document.getElementById('email');
+const btn = document.querySelector('button');
 
-email.addEventListener("click", (event) => {
+btn.addEventListener("click", (event) => {
   if(email.validity.typeMismatch) {
     email.setCustomValidity("Ooops! Please check your email");
     email.reportValidity();
