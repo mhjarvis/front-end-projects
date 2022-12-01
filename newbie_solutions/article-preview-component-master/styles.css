@@ -4,12 +4,18 @@
   font-size: 10px;
 }
 
+/********** CARD **********/
+
+.card {
+  max-width: 32.7rem;
+}
+
 /********** IMAGE **********/
 
-.drawers {
-  min-width: 327px;
-  max-width: 327px;
-  max-height: 200px;
+.drawers-image {
+  min-width: 32.7rem;
+  max-width: 32.7rem;
+  max-height: 20rem;
   object-fit: cover;
 }
 
