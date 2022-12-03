@@ -60,10 +60,19 @@ body {
   margin-top: 1.3remish;
 }
 
-.profile-container {
+/********** PROFILE CONTAINER **********/
 
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  max-height: 4rem;
+  max-width: 26.3rem;
 }
 
 .new-profile-container {
 
 }
+
+/********** PROFILE **********/
+
+e
