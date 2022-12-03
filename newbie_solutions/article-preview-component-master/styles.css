@@ -57,5 +57,13 @@ body {
   letter-spacing: 0.012rem;
   color: var(--grayish-blue);
   max-width: 26.3rem;
-  margin-top: 1.3rem;
+  margin-top: 1.3remish;
+}
+
+.profile-container {
+
+}
+
+.new-profile-container {
+
 }
