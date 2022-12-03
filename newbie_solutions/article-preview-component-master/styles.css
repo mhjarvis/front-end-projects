@@ -35,6 +35,16 @@ body {
   object-fit: cover;
 }
 
+/********** TITLE **********/
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  letter-spacing: 0.02rem;
+  max-width: 26.3rem;;
+}
+
 
 /* # Front-end Style Guide
 
