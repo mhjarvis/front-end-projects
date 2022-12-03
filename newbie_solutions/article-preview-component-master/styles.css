@@ -4,6 +4,9 @@
   font-size: 10px;
 
   --light-blue-gray: hsl(210, 46%, 95%);
+  --dark-gray-blue: hsl(217, 19%, 35%);
+  --desaturate-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
 }
 
 body {
@@ -33,12 +36,6 @@ body {
 
 /* # Front-end Style Guide
 
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
 
 ## Colors
 
