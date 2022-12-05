@@ -77,16 +77,6 @@ body {
   margin-top: 3.2rem;
 }
 
-.new-profile-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-height: 4rem;
-  width: 100%;
-  margin-top: 3.2rem;
-  background-color: var(--dark-gray-blue);
-}
-
 /********** PROFILE **********/
 
 
@@ -118,4 +108,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/********** NEW PROFILE CONTAINER **********/
+
+.new-profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 4rem;
+  width: 100%;
+  margin-top: 3.2rem;
+  background-color: var(--dark-gray-blue);
 }
