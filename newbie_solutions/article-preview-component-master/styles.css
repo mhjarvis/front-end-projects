@@ -68,7 +68,7 @@ body {
 /********** PROFILE CONTAINER **********/
 
 .profile-container {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   max-height: 4rem;
@@ -78,7 +78,13 @@ body {
 }
 
 .new-profile-container {
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 4rem;
+  width: 100%;
+  margin-top: 3.2rem;
+  background-color: var(--dark-gray-blue);
 }
 
 /********** PROFILE **********/
