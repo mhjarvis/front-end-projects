@@ -67,7 +67,7 @@ body {
 
 /********** PROFILE CONTAINER **********/
 
-.profile-container {
+.profile-container-light {
   display: none;
   align-items: center;
   justify-content: space-between;
@@ -78,8 +78,6 @@ body {
 }
 
 /********** PROFILE **********/
-
-
 
 .profile-image {
   max-width: 40px;
@@ -112,7 +110,7 @@ body {
 
 /********** NEW PROFILE CONTAINER **********/
 
-.new-profile-container {
+.new-profile-container-dark  {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -142,6 +140,9 @@ body {
 
 .share-icon-2 {
   margin-right: 3.2rem;
-  color: white;
-  background-color: ;
 }
+
+.share-2 {
+  background-color: var(--desaturate-dark-blue);
+}
+
