@@ -120,14 +120,15 @@ body {
   width: 100%;
   margin-top: 3.2rem;
   background-color: var(--dark-gray-blue);
+  
 }
 
 .share-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 3.2rem;
+  justify-content: space-evenly;
+  width: 207px;
+  
 }
 
 .share {
@@ -136,4 +137,11 @@ body {
   line-height: 2rem;
   letter-spacing: 0.5rem;
   color: var(--desaturate-dark-blue);
+  margin-left: 3.2rem;
+}
+
+.share-icon-2 {
+  margin-right: 3.2rem;
+  color: white;
+  background-color: ;
 }
