@@ -68,7 +68,7 @@ body {
 /********** PROFILE CONTAINER-LIGHT **********/
 
 .profile-container-light {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   max-height: 4rem;
@@ -111,7 +111,7 @@ body {
 /********** PROFILE CONTAINER DARK **********/
 
 .profile-container-dark  {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   height: 6.4rem;
