@@ -32,7 +32,7 @@ body {
   border-radius: 10px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .card {
     min-width: 73rem;
     min-height: 28rem;
@@ -51,7 +51,7 @@ body {
   align-items: center;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .info {
     max-width: 36.5rem;
     max-height: 21.6rem;
@@ -71,7 +71,7 @@ body {
   border-top-left-radius: 10px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .drawers-image {
     min-width: 28.5rem;
     max-width: 28.5rem;
@@ -95,7 +95,7 @@ body {
   color: var(--dark-gray-blue);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .title {
     font-size: 2rem;
     line-height: 2.8rem;
@@ -115,7 +115,7 @@ body {
   margin-top: 1.3rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .sub-title {
     max-width: 36.5rem;
   }
@@ -133,7 +133,7 @@ body {
   margin-top: 3.2rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .profile-container-light {
     max-width: 36.5rem;
     margin-top: 2rem;
@@ -152,7 +152,13 @@ body {
   font-weight: 700;
   line-height: 2rem;
   color: var(--dark-gray-blue);
-  margin-right: 14rem;
+  margin-right: 4rem;
+}
+
+@media (min-width: 800px) {
+  .name {
+    margin-right: 14rem;
+  }
 }
 
 .date {
@@ -186,17 +192,15 @@ body {
   border-bottom-right-radius: 10px;
 }
 
-*{outline:1px solid red}
-
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .profile-container-dark {
     justify-content: center;
     position: absolute;
     max-width: 24.8rem;
-    max-height: 5.7rem;
+    max-height: 4.7rem;
     border-radius: 10px;
     left: 23.5rem;
-    top: 6.6rem;
+    top: 7.6rem;
     z-index: 1;
   }
 
@@ -204,7 +208,7 @@ body {
     position: absolute;
     content: '';
     left: 10rem;
-    top: 5rem;
+    top: 4rem;
     width: 0; 
     height: 0; 
     border-left: 15px solid transparent;
@@ -222,7 +226,7 @@ body {
   width: 207px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .share-container-dark {
     min-width: 17.5rem;
   }
@@ -233,11 +237,12 @@ body {
   font-weight: 500;
   line-height: 2rem;
   letter-spacing: 0.5rem;
-  color: var(--desaturate-dark-blue);
+  color: var(--grayish-blue);
   margin-left: 3.2rem;
+  text-transform: uppercase;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .share {
     margin: 0;
   }
@@ -254,10 +259,10 @@ body {
   border-radius: 24px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .share-icon-dark {
     position: absolute;
-    top: 8.3rem;
+    top: 7.3rem;
     left: 9.8rem;
   }
 }
