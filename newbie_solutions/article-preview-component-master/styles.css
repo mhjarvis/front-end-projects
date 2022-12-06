@@ -113,12 +113,16 @@ body {
   font-weight: 500;
   line-height: 2rem;
   letter-spacing: 0.012rem;
-  color: var(--grayish-blue);
+  color: var(--desaturate-dark-blue);
   max-width: 26.3rem;
   margin-top: 1.3rem;
 }
 
-
+@media (min-width: 700px) {
+  .sub-title {
+    max-width: 36.5rem;
+  }
+}
 
 /********** PROFILE CONTAINER-LIGHT **********/
 
@@ -131,6 +135,8 @@ body {
   width: 100%;
   margin-top: 3.2rem;
 }
+
+
 
 /********** PROFILE-LIGHT **********/
 
