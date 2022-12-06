@@ -32,6 +32,22 @@ body {
   border-radius: 10px;
 }
 
+@media (min-width: 700px) {
+  .card {
+    max-width: 73rem;
+    min-height: 28rem;
+    flex-direction: row;
+  }
+}
+
+.info {
+  max-width: 32.7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /********** IMAGE **********/
 
 .drawers-image {
@@ -41,6 +57,18 @@ body {
   object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+@media (min-width: 700px) {
+  .drawers-image {
+    min-width: 28.5rem;
+    max-width: 28.5rem;
+    min-height: 28rem;
+    object-fit: cover;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 }
 
 /********** TITLE **********/
