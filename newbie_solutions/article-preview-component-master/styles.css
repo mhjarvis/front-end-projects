@@ -152,6 +152,7 @@ body {
   font-weight: 700;
   line-height: 2rem;
   color: var(--dark-gray-blue);
+  margin-right: 14rem;
 }
 
 .date {
@@ -185,8 +186,11 @@ body {
   border-bottom-right-radius: 10px;
 }
 
+*{outline:1px solid red}
+
 @media (min-width: 700px) {
   .profile-container-dark {
+    justify-content: center;
     position: absolute;
     max-width: 24.8rem;
     max-height: 5.7rem;
@@ -218,6 +222,12 @@ body {
   width: 207px;
 }
 
+@media (min-width: 700px) {
+  .share-container-dark {
+    min-width: 17.5rem;
+  }
+}
+
 .share {
   font-size: 1.3rem;
   font-weight: 500;
@@ -225,6 +235,12 @@ body {
   letter-spacing: 0.5rem;
   color: var(--desaturate-dark-blue);
   margin-left: 3.2rem;
+}
+
+@media (min-width: 700px) {
+  .share {
+    margin: 0;
+  }
 }
 
 .share-icon-dark {
