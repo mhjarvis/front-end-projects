@@ -27,6 +27,16 @@ header, main, footer {
 
 header {
   height: 53.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+/*************** NAV ****************/
+
+nav {
+  height: 2.4rem;
+  width: 32.7rem;
+  margin-top: 3.2rem;
 }
 
 /*************************************
