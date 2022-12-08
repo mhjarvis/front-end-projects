@@ -1,1 +1,11 @@
 @import url(./reset.css);
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 37.5rem;
+  width: 100%;
+}
