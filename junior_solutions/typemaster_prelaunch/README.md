@@ -9,7 +9,6 @@ This is a solution to the [Typemaster pre-launch landing page challenge on Front
     - [Links](#links)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
   - [Author](#author)
 
 ## Overview
