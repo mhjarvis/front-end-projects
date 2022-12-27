@@ -10,7 +10,7 @@
     font-family: 'Josefin Sans', sans-serif;
 
     /* Colors */
-    
+
 }
 
 body {
@@ -21,10 +21,9 @@ body {
     justify-content: center;
 }
 
-
-
 .container {
-    max-width: 37.5rem;
+    box-sizing: border-box;
+    width: 37.5rem;
     height: 80rem;
     background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
 }
