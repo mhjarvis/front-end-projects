@@ -1,5 +1,9 @@
 @import url(./reset.css);
 
+* {
+    outline: 1px solid red;
+}
+
 :root {
     font-size: 10px;
 }
