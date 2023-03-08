@@ -32,13 +32,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
 }
 
 main {
   width: 37.5rem;
   min-height: 80.9rem;
 }
+
+.result {
+  background-image: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+  
+}
+
+
 
 /* 
 
