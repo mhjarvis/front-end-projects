@@ -172,6 +172,7 @@ main {
 
 .reaction-text {
   color: var(--light-red);
+  filter: drop-shadow(0px 4px, 4px, black);
 }
 
 .memory {
@@ -196,4 +197,15 @@ main {
 
 .visual-text {
   color: hsla(234, 85%, 45%, 1);
+}
+
+.button {
+  height: 5.6rem;
+  width: 31.5rem;
+  background-color: var(--dark-gray-blue);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 128px;
+  border: none;
 }
