@@ -131,3 +131,12 @@ main {
   align-self:flex-start;
   margin-left: 3.2rem;
 }
+
+.reaction, .memory, .verbal, .visual {
+  display: flex;
+  align-items: center;
+  width: 31.5rem;
+  height: 5.6rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
