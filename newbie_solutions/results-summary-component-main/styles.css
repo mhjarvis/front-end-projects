@@ -112,3 +112,15 @@ main {
   width: 26rem;
   text-align: center;
 }
+
+/* BOTTOM SECTION */
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 40rem;
+  margin-top: 2.4rem;
+}
+
