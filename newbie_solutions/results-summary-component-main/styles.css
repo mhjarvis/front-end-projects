@@ -36,11 +36,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--pale-blue);
 }
 
 main {
   width: 37.5rem;
   min-height: 80.9rem;
+  background-color: var(--white);
 }
 
 /* TOP SECTION */
@@ -110,12 +112,3 @@ main {
   width: 26rem;
   text-align: center;
 }
-
-/* 
-- Mobile: 375px
-- Desktop: 1440px
-### Font
-
-- Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
-- Weights: 500, 700, 800
- */
