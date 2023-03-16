@@ -139,4 +139,24 @@ main {
   height: 5.6rem;
   margin-bottom: 1rem;
   border-radius: 12px;
+  font-size: 1.6rem;
 }
+
+.icon {
+  margin-left: 1rem;
+}
+
+.txt {
+  margin-left: 1.2rem;
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 5%);
+}
+
+.reaction-text {
+  color: var(--light-red);
+}
+
+
+
