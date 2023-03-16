@@ -124,3 +124,10 @@ main {
   margin-top: 2.4rem;
 }
 
+.summary-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark-gray-blue);
+  align-self:flex-start;
+  margin-left: 3.2rem;
+}
