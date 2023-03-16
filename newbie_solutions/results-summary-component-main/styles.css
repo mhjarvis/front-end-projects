@@ -135,11 +135,17 @@ main {
 .reaction, .memory, .verbal, .visual {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 31.5rem;
   height: 5.6rem;
   margin-bottom: 1rem;
   border-radius: 12px;
   font-size: 1.6rem;
+}
+
+.rdiv1 {
+  display: flex;
+  flex-direction: row;
 }
 
 .icon {
@@ -150,6 +156,16 @@ main {
   margin-left: 1.2rem;
 }
 
+.scr {
+  display: flex;
+}
+
+.fade {
+  color: gray;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
 .reaction {
   background-color: hsla(0, 100%, 67%, 5%);
 }
@@ -158,5 +174,26 @@ main {
   color: var(--light-red);
 }
 
+.memory {
+  background-color: hsla(39, 100%, 56%, 5%);
+}
 
+.memory-text {
+  color: var(--orange-yellow);
+}
 
+.verbal {
+  background-color: hsla(166, 100%, 37%, 5%);
+}
+
+.verbal-text {
+  color: hsla(166, 100%, 37%, 1);
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 5%);
+}
+
+.visual-text {
+  color: hsla(234, 85%, 45%, 1);
+}
