@@ -208,5 +208,8 @@ main {
   font-weight: 700;
   border-radius: 128px;
   border: none;
-  
+}
+
+button:hover {
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
 }
