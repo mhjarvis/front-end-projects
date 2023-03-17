@@ -82,6 +82,12 @@ main {
   font-weight: 700;
 }
 
+@media (min-width: 800px) {
+  .your-result {
+    font-size: 2.4rem;
+  }
+}
+
 .circle {
   display: flex;
   flex-direction: column;
@@ -141,6 +147,13 @@ main {
   justify-content: space-between;
   height: 40rem;
   margin-top: 2.4rem;
+}
+
+@media (min-width: 800px) {
+  .summary {
+    margin-left: 4rem;
+    justify-content: space-evenly;
+  }
 }
 
 .summary-heading {
