@@ -45,6 +45,15 @@ main {
   background-color: var(--white);
 }
 
+@media (min-width: 800px) {
+  main {
+    width: 73.6rem;
+    min-height: 51.2rem;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 /* TOP SECTION */
 
 .result {
@@ -55,6 +64,13 @@ main {
   height: 35.6rem;
   background: linear-gradient(180deg, var(--slate-blue) 0.01%, var(--royal-blue) 100%);
   border-radius: 0px 0px 32px 32px;
+}
+
+@media (min-width: 800px) {
+  .result {
+    width: 36.8rem;
+    height: 51.2rem;
+  }
 }
 
 .your-result {
