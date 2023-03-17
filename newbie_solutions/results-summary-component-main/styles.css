@@ -168,8 +168,7 @@ main {
 
 .reaction {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
-  box-shadow: 0px 10px 10px -15px 
-}
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
 
 .reaction-text {
   color: var(--light-red);
@@ -185,6 +184,7 @@ main {
 
 .verbal {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+  
 }
 
 .verbal-text {
