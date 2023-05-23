@@ -1,0 +1,102 @@
+<!-- npx webpack --watch            // enable live update -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="../dist/main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="top">
+        <h1 class="title">Body Mass Index Calculator</h1> 
+        <p class="title-text">Better understand your weight in relation to your height using our 
+    body mass index (BM) calculator. While BMI is not the sole determinant 
+    of a healthy weight, it offers a valuable starting point to evaluate 
+    your overall health and well-being.</p>
+
+        <div class="bmi-app">
+            Enter your details below
+  
+            Metric
+            Imperial
+  
+            Height
+            Weight
+  
+            Your BMI is... <!-- add score -->
+  
+            Your BMI suggests you're <!-- add classification -->. 
+            Your ideal weight is between <!-- add range -->.
+        </div>
+    </header>
+
+    <main>
+        <div class="main-top">
+            <img src="#" alt="man-eating-sushi" class="man-eating-sushi">
+                <h2 class='main-title'>What your BMI result means</h2>
+                <p class="main-info">
+                A BMI range of 18.5 to 24.9 is considered a 'healthy weight.' Maintaining a 
+                healthy weight may lower your chances of experiencing health issues later on, 
+                such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced 
+                fat and sugar content, incorporating ample fruits and vegetables. Additionally, 
+                strive for regular physical activity, ideally about 30 minutes daily for 
+                five days a week.
+                </p>
+        </div>
+
+        <div class="main-bottom">
+            <div class="main-bottom-container">
+                <div class="healthy-eating-container">
+                    Healthy eating
+                    Healthy eating promotes weight control, disease prevention, better digestion, 
+                    immunity, mental clarity, and mood.
+                </div>
+                <div class="regular-exercise-container">
+                    Regular exercise
+                    Exercise improves fitness, aids weight control, elevates mood, and reduces disease 
+                    risk, fostering wellness and longevity.
+                </div>
+                <div class="adequate-sleep-container">
+                    Adequate sleep
+                    Sleep enhances mental clarity, emotional stability, and physical wellness, promoting 
+                    overall restoration and rejuvenation.
+                </div>
+            </div>
+        </div>
+
+    </main>
+  
+    Limitations of BMI
+  
+    Although BMI is often a practical indicator of healthy weight, it is not suited for 
+    every person. Specific groups should carefully consider their BMI outcomes, and in 
+    certain cases, the measurement may not be beneficial to use.
+  
+    Gender
+    The development and body fat composition of girls and boys vary with age. Consequently, 
+    a child's age and gender are considered when evaluating their BMI.
+  
+    Age
+    In aging individuals, increased body fat and muscle loss may cause BMI to underestimate 
+    body fat content.
+  
+    Muscle
+    BMI may misclassify muscular individuals as overweight or obese, as it doesn't 
+    differentiate muscle from fat.
+  
+    Pregnancy
+    Expectant mothers experience weight gain due to their growing baby. Maintaining a 
+    healthy pre-pregnancy BMI is advisable to minimise health risks for both mother 
+    and child.
+  
+    Race
+    Certain health concerns may affect individuals of some Black and Asian origins at 
+    lower BMIs than others. To learn more, it is advised to discuss this with your 
+    GP or practice nurse.
+  
+  </body>
+</html>
