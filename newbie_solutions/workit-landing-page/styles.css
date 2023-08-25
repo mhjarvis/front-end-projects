@@ -1,0 +1,54 @@
+
+:root {
+  font-size: 10px;
+  font-family: sans-serif;
+
+  /* Primary */
+  --light-red: hsl(0, 100%, 67%);
+
+
+  /* Gradients */
+  --slate-blue: hsl(252, 100%, 67%); /* background */
+  --royal-blue: hsl(241, 81%, 54%); /* background */
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0); /* circle */
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+* {
+  outline: 1px solid red;  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  max-width: 37.5rem;
+  min-height: 0;
+  background-color: var(--white);
+}
+
+@media (min-width: 800px) {
+  main {
+    width: 76.8rem;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
+/* TOP SECTION */
+
+
