@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Fraunces', serif;
-    src: url(./assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+    font-family: 'Fraunces';
+    src: url(./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
 }
 @font-face {
     font-family: 'Manrope';
@@ -9,6 +9,7 @@
 
 :root {
   font-size: 10px;
+  font-family: 'Fraunces', Arial;
 
   /* Primary */
   --purple: #24053e;
@@ -19,8 +20,8 @@
 }
 
 * {
-  outline: 1px solid red;  
-  margin: 0;
+/*   outline: 1px solid red;  
+ */  margin: 0;
   padding: 0;
 }
 
@@ -55,13 +56,23 @@ button:hover {
     color: var(--green)
 }
 
-/* HEADER */
+/*************************************************
+********************* HEADER *********************
+**************************************************/
 
 header {
-    background-color: var(--purple);
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.background {
+    position: fixed;
+    height: 48.1rem;
+    width: 37.5rem;
+    background-color: var(--purple);
+    display: inline-block;
+    clip-path: circle(165% at 50% -50%)
 }
 
 .semi-nav {
@@ -69,21 +80,46 @@ header {
     margin-top: 3.2rem;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .header-link {
     color: white;
-    text-decoration: underline;
-    text-decoration-color: var(--green);
-    text-decoration-thickness: 2px;
+    text-decoration: none;
     font-size: 1.6rem;
     font-family: 'Manrope';
-
+    border-bottom: 3px solid var(--green);
 }
 
 .title {
     font-size: 5rem;
     color: white;
     text-align: center;
+    margin-top: 6rem;
+    z-index: 1;
+    line-height: 5.5rem;
 }
 
+#green-underline {
+    border-bottom: 2px solid var(--green);
+}
+
+.learn-more {
+    margin-top: 3rem;
+    width: 13.3rem;
+    height: 5.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: none;
+    z-index: 1;
+}
+
+.hero-img {
+    width: 32rem;
+    margin-top: 6.5rem;
+    z-index: 1;
+}
+
+/*************************************************
+***************** SECTION - TOP ******************
+**************************************************/
