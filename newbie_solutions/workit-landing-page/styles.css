@@ -31,10 +31,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(245, 242, 242);
 }
 
 main {
   max-width: 37.5rem;
+  height: 238rem;
   background-color: var(--white);
 }
 
@@ -179,3 +181,75 @@ header {
     line-height: 3rem;
 }
 
+/*************************************************
+***************** SECTION - BOT ******************
+**************************************************/
+
+.bottom-section {
+    position: relative;
+    top: -400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.founder-img {
+    width: 28.1rem;
+}
+
+.founder-info-container {
+    height: 37.5rem;
+    width: 34.3rem;
+    background-color: var(--purple);
+    top: -50px;
+    position: relative;
+    color: var(--white-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.founder-title {
+    font-size: 3.2rem;
+    margin-top: 3rem;
+}
+
+.founder-text {
+    font-size: 1.6rem;
+    font-family: 'Manrope';
+    line-height: 3rem;
+    text-align: center;
+    width: 28.1rem;
+    margin-top: 2rem;
+}
+
+.apply-button {
+    width: 17.2rem;
+    height: 5.5rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    border: none;
+}
+
+/*************************************************
+******************** FOOTER **********************
+**************************************************/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -37rem;
+    
+}
+.footer-logo {
+    width: 9.5rem;
+}
+
+.footer-links {
+    margin-top: 6rem;
+    width: 11.6rem;
+    display: flex;
+    justify-content: space-between;
+}
